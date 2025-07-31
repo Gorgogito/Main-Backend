@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Main.Application.DTO\Main.Application.DTO.csproj" />
+    <ProjectReference Include="..\Main.Application.Interface\Main.Application.Interface.csproj" />
+    <ProjectReference Include="..\Main.Application.Validator\Main.Application.Validator.csproj" />
+    <ProjectReference Include="..\Main.Domain.Interface\Main.Domain.Interface.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Solutions.Utility.Logger">
+      <HintPath>..\..\..\..\..\..\server\c\systems\components\Solutions.Utility.Logger.dll</HintPath>
+    </Reference>
+    <Reference Include="Solutions.Utility.Manager">
+      <HintPath>..\..\..\..\..\..\server\c\systems\components\Solutions.Utility.Manager.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

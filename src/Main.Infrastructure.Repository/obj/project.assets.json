@@ -1,0 +1,210 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Dapper/2.1.66": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FluentValidation/12.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Main.Cross.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "FluentValidation": "12.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Main.Cross.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Main.Cross.Common.dll": {}
+        }
+      },
+      "Main.Domain.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Main.Domain.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Main.Domain.Entity.dll": {}
+        }
+      },
+      "Main.Infrastructure.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Main.Domain.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Main.Infrastructure.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Main.Infrastructure.Interface.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dapper/2.1.66": {
+      "sha512": "/q77jUgDOS+bzkmk3Vy9SiWMaetTw+NOoPAV0xPBsGVAyljd5S6P+4RUW7R3ZUGGr9lDRyPKgAMj2UAOwvqZYw==",
+      "type": "package",
+      "path": "dapper/2.1.66",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.1.66.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net8.0/Dapper.dll",
+        "lib/net8.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml",
+        "readme.md"
+      ]
+    },
+    "FluentValidation/12.0.0": {
+      "sha512": "8NVLxtMUXynRHJIX3Hn1ACovaqZIJASufXIIFkD0EUbcd5PmMsL1xUD5h548gCezJ5BzlITaR9CAMrGe29aWpA==",
+      "type": "package",
+      "path": "fluentvalidation/12.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.12.0.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml"
+      ]
+    },
+    "Main.Cross.Common/1.0.0": {
+      "type": "project",
+      "path": "../Main.Cross.Common/Main.Cross.Common.csproj",
+      "msbuildProject": "../Main.Cross.Common/Main.Cross.Common.csproj"
+    },
+    "Main.Domain.Entity/1.0.0": {
+      "type": "project",
+      "path": "../Main.Domain.Entity/Main.Domain.Entity.csproj",
+      "msbuildProject": "../Main.Domain.Entity/Main.Domain.Entity.csproj"
+    },
+    "Main.Infrastructure.Interface/1.0.0": {
+      "type": "project",
+      "path": "../Main.Infrastructure.Interface/Main.Infrastructure.Interface.csproj",
+      "msbuildProject": "../Main.Infrastructure.Interface/Main.Infrastructure.Interface.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Dapper >= 2.1.66",
+      "Main.Cross.Common >= 1.0.0",
+      "Main.Infrastructure.Interface >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ta_jo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj",
+      "projectName": "Main.Infrastructure.Repository",
+      "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj",
+      "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
+      "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Repository\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\ta_jo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\Main.Cross.Common.csproj": {
+              "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\Main.Cross.Common.csproj"
+            },
+            "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj": {
+              "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "Dapper": {
+            "target": "Package",
+            "version": "[2.1.66, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

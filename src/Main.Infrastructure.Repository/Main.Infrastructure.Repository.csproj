@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.66" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Main.Cross.Common\Main.Cross.Common.csproj" />
+    <ProjectReference Include="..\Main.Infrastructure.Interface\Main.Infrastructure.Interface.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Solutions.Utility.Logger">
+      <HintPath>..\..\..\..\..\..\server\c\systems\components\Solutions.Utility.Logger.dll</HintPath>
+    </Reference>
+    <Reference Include="Solutions.Utility.Manager">
+      <HintPath>..\..\..\..\..\..\server\c\systems\components\Solutions.Utility.Manager.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

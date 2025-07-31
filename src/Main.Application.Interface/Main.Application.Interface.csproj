@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Main.Application.DTO\Main.Application.DTO.csproj" />
+    <ProjectReference Include="..\Main.Cross.Common\Main.Cross.Common.csproj" />
+  </ItemGroup>
+
+</Project>

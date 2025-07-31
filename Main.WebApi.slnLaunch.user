@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "src\\Main.Service.WebApi\\Main.Service.WebApi.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
