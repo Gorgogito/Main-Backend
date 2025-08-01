@@ -26,6 +26,10 @@ namespace Main.Cross.Mapper
             CreateMap<Administration, RequestDtoAdministration_Insert>().ReverseMap();
             CreateMap<Administration, RequestDtoAdministration_Update>().ReverseMap();
 
+            CreateMap<GroupMenu, ResponseDtoGroupMenu>().ReverseMap();
+            CreateMap<GroupMenu, RequestDtoGroupMenu_Insert>().ReverseMap();
+            CreateMap<GroupMenu, RequestDtoGroupMenu_Update>().ReverseMap();
+
             //CreateMap<Customers, CustomersDto>().ReverseMap()
             //    .ForMember(destination => destination.CustomerId, source => source.MapFrom(src => src.CustomerId))
             //    .ForMember(destination => destination.CompanyName, source => source.MapFrom(src => src.CompanyName))

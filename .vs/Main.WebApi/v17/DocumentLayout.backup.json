@@ -1,26 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\",
+  "WorkspaceRootPath": "D:\\Project\\Main\\Main-Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9555ECB-A141-45EB-95D8-A49D942F7E7F}|src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj|d:\\project\\main\\backend\\main.webapi\\src\\main.infrastructure.repository\\groupmenurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|d:\\project\\main\\main-backend\\src\\main.service.webapi\\controllers\\groupmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|solutionrelative:src\\main.service.webapi\\controllers\\groupmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9555ECB-A141-45EB-95D8-A49D942F7E7F}|src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj|d:\\project\\main\\main-backend\\src\\main.infrastructure.repository\\groupmenurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9555ECB-A141-45EB-95D8-A49D942F7E7F}|src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj|solutionrelative:src\\main.infrastructure.repository\\groupmenurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9555ECB-A141-45EB-95D8-A49D942F7E7F}|src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj|d:\\project\\main\\backend\\main.webapi\\src\\main.infrastructure.repository\\accesscontrolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9555ECB-A141-45EB-95D8-A49D942F7E7F}|src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj|solutionrelative:src\\main.infrastructure.repository\\accesscontrolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB75AF01-AA5C-4C85-9EC2-3E15D2312CEB}|src\\Main.Application.Main\\Main.Application.Main.csproj|d:\\project\\main\\main-backend\\src\\main.application.main\\groupmenuapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB75AF01-AA5C-4C85-9EC2-3E15D2312CEB}|src\\Main.Application.Main\\Main.Application.Main.csproj|solutionrelative:src\\main.application.main\\groupmenuapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0325E98-39AC-40AD-A976-5DC9F37CD333}|src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj|d:\\project\\main\\backend\\main.webapi\\src\\main.infrastructure.interface\\igroupmenurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0325E98-39AC-40AD-A976-5DC9F37CD333}|src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj|solutionrelative:src\\main.infrastructure.interface\\igroupmenurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B11257A-8A1B-41AB-BE1E-478769A774EB}|src\\Main.Domain.Core\\Main.Domain.Core.csproj|d:\\project\\main\\main-backend\\src\\main.domain.core\\groupmenudomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B11257A-8A1B-41AB-BE1E-478769A774EB}|src\\Main.Domain.Core\\Main.Domain.Core.csproj|solutionrelative:src\\main.domain.core\\groupmenudomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF5C8FEC-6A29-4ABC-917D-1CE80CA772B3}|src\\Main.Domain.Interface\\Main.Domain.Interface.csproj|d:\\project\\main\\backend\\main.webapi\\src\\main.domain.interface\\igroupmenudomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7DA846B1-20DF-4B67-9A8F-26F293369157}|src\\Main.Application.Validator\\Main.Application.Validator.csproj|d:\\project\\main\\main-backend\\src\\main.application.validator\\groupmenudtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA846B1-20DF-4B67-9A8F-26F293369157}|src\\Main.Application.Validator\\Main.Application.Validator.csproj|solutionrelative:src\\main.application.validator\\groupmenudtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2EC3112-0784-4F22-92DA-3BF16CB8F2F3}|src\\Main.Domain.Entity\\Main.Domain.Entity.csproj|d:\\project\\main\\main-backend\\src\\main.domain.entity\\resource\\groupmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2EC3112-0784-4F22-92DA-3BF16CB8F2F3}|src\\Main.Domain.Entity\\Main.Domain.Entity.csproj|solutionrelative:src\\main.domain.entity\\resource\\groupmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F848B3A8-E60C-4022-9421-D535CF76B717}|src\\Main.Application.Interface\\Main.Application.Interface.csproj|d:\\project\\main\\main-backend\\src\\main.application.interface\\igroupmenuapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F848B3A8-E60C-4022-9421-D535CF76B717}|src\\Main.Application.Interface\\Main.Application.Interface.csproj|solutionrelative:src\\main.application.interface\\igroupmenuapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB4C893-9FC1-4433-98A3-368706244D31}|src\\Main.Application.DTO\\Main.Application.DTO.csproj|d:\\project\\main\\main-backend\\src\\main.application.dto\\request\\requestdtogroupmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB4C893-9FC1-4433-98A3-368706244D31}|src\\Main.Application.DTO\\Main.Application.DTO.csproj|solutionrelative:src\\main.application.dto\\request\\requestdtogroupmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB4C893-9FC1-4433-98A3-368706244D31}|src\\Main.Application.DTO\\Main.Application.DTO.csproj|d:\\project\\main\\main-backend\\src\\main.application.dto\\response\\responsedtogroupmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB4C893-9FC1-4433-98A3-368706244D31}|src\\Main.Application.DTO\\Main.Application.DTO.csproj|solutionrelative:src\\main.application.dto\\response\\responsedtogroupmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5C8FEC-6A29-4ABC-917D-1CE80CA772B3}|src\\Main.Domain.Interface\\Main.Domain.Interface.csproj|d:\\project\\main\\main-backend\\src\\main.domain.interface\\igroupmenudomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF5C8FEC-6A29-4ABC-917D-1CE80CA772B3}|src\\Main.Domain.Interface\\Main.Domain.Interface.csproj|solutionrelative:src\\main.domain.interface\\igroupmenudomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2EC3112-0784-4F22-92DA-3BF16CB8F2F3}|src\\Main.Domain.Entity\\Main.Domain.Entity.csproj|d:\\project\\main\\backend\\main.webapi\\src\\main.domain.entity\\resource\\groupmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2EC3112-0784-4F22-92DA-3BF16CB8F2F3}|src\\Main.Domain.Entity\\Main.Domain.Entity.csproj|solutionrelative:src\\main.domain.entity\\resource\\groupmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0325E98-39AC-40AD-A976-5DC9F37CD333}|src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj|d:\\project\\main\\main-backend\\src\\main.infrastructure.interface\\igroupmenurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0325E98-39AC-40AD-A976-5DC9F37CD333}|src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj|solutionrelative:src\\main.infrastructure.interface\\igroupmenurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,65 +62,143 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccessControlRepository.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Repository\\AccessControlRepository.cs",
-              "RelativeDocumentMoniker": "src\\Main.Infrastructure.Repository\\AccessControlRepository.cs",
-              "ToolTip": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Repository\\AccessControlRepository.cs",
-              "RelativeToolTip": "src\\Main.Infrastructure.Repository\\AccessControlRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAANEAAAASAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "GroupMenuController.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Controllers\\GroupMenuController.cs",
+              "RelativeDocumentMoniker": "src\\Main.Service.WebApi\\Controllers\\GroupMenuController.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Controllers\\GroupMenuController.cs",
+              "RelativeToolTip": "src\\Main.Service.WebApi\\Controllers\\GroupMenuController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T14:57:49.953Z",
+              "WhenOpened": "2025-08-01T20:10:00.805Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "GroupMenuApplication.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\GroupMenuApplication.cs",
+              "RelativeDocumentMoniker": "src\\Main.Application.Main\\GroupMenuApplication.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\GroupMenuApplication.cs",
+              "RelativeToolTip": "src\\Main.Application.Main\\GroupMenuApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T18:11:42.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IGroupMenuApplication.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\IGroupMenuApplication.cs",
+              "RelativeDocumentMoniker": "src\\Main.Application.Interface\\IGroupMenuApplication.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\IGroupMenuApplication.cs",
+              "RelativeToolTip": "src\\Main.Application.Interface\\IGroupMenuApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T18:06:37.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GroupMenuDtoValidator.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\GroupMenuDtoValidator.cs",
+              "RelativeDocumentMoniker": "src\\Main.Application.Validator\\GroupMenuDtoValidator.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\GroupMenuDtoValidator.cs",
+              "RelativeToolTip": "src\\Main.Application.Validator\\GroupMenuDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T17:44:45.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ResponseDtoGroupMenu.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Response\\ResponseDtoGroupMenu.cs",
+              "RelativeDocumentMoniker": "src\\Main.Application.DTO\\Response\\ResponseDtoGroupMenu.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Response\\ResponseDtoGroupMenu.cs",
+              "RelativeToolTip": "src\\Main.Application.DTO\\Response\\ResponseDtoGroupMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T17:41:04.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RequestDtoGroupMenu.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Request\\RequestDtoGroupMenu.cs",
+              "RelativeDocumentMoniker": "src\\Main.Application.DTO\\Request\\RequestDtoGroupMenu.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Request\\RequestDtoGroupMenu.cs",
+              "RelativeToolTip": "src\\Main.Application.DTO\\Request\\RequestDtoGroupMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T17:35:43.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GroupMenuDomain.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\GroupMenuDomain.cs",
+              "RelativeDocumentMoniker": "src\\Main.Domain.Core\\GroupMenuDomain.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\GroupMenuDomain.cs",
+              "RelativeToolTip": "src\\Main.Domain.Core\\GroupMenuDomain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T17:20:12.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GroupMenuRepository.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Repository\\GroupMenuRepository.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Repository\\GroupMenuRepository.cs",
               "RelativeDocumentMoniker": "src\\Main.Infrastructure.Repository\\GroupMenuRepository.cs",
-              "ToolTip": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Repository\\GroupMenuRepository.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Repository\\GroupMenuRepository.cs",
               "RelativeToolTip": "src\\Main.Infrastructure.Repository\\GroupMenuRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAABZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-31T14:57:28.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "IGroupMenuRepository.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Interface\\IGroupMenuRepository.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\IGroupMenuRepository.cs",
               "RelativeDocumentMoniker": "src\\Main.Infrastructure.Interface\\IGroupMenuRepository.cs",
-              "ToolTip": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Interface\\IGroupMenuRepository.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\IGroupMenuRepository.cs",
               "RelativeToolTip": "src\\Main.Infrastructure.Interface\\IGroupMenuRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-31T14:56:45.994Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "IGroupMenuDomain.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\IGroupMenuDomain.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\IGroupMenuDomain.cs",
               "RelativeDocumentMoniker": "src\\Main.Domain.Interface\\IGroupMenuDomain.cs",
-              "ToolTip": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\IGroupMenuDomain.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\IGroupMenuDomain.cs",
               "RelativeToolTip": "src\\Main.Domain.Interface\\IGroupMenuDomain.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-31T14:55:26.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "GroupMenu.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Resource\\GroupMenu.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Resource\\GroupMenu.cs",
               "RelativeDocumentMoniker": "src\\Main.Domain.Entity\\Resource\\GroupMenu.cs",
-              "ToolTip": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Resource\\GroupMenu.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Resource\\GroupMenu.cs",
               "RelativeToolTip": "src\\Main.Domain.Entity\\Resource\\GroupMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-31T14:48:43.088Z",
               "EditorCaption": ""

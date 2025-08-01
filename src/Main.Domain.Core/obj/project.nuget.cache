@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mifrIa0BRiM=",
+  "dgSpecHash": "pzozdIMwe38=",
   "success": true,
-  "projectFilePath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Core\\Main.Domain.Core.csproj",
+  "projectFilePath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\Main.Domain.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

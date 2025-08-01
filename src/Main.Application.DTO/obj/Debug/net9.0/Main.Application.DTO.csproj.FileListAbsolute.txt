@@ -9,3 +9,15 @@ D:\Project\Main\Backend\Main.WebApi\src\Main.Application.DTO\obj\Debug\net9.0\Ma
 D:\Project\Main\Backend\Main.WebApi\src\Main.Application.DTO\obj\Debug\net9.0\refint\Main.Application.DTO.dll
 D:\Project\Main\Backend\Main.WebApi\src\Main.Application.DTO\obj\Debug\net9.0\Main.Application.DTO.pdb
 D:\Project\Main\Backend\Main.WebApi\src\Main.Application.DTO\obj\Debug\net9.0\ref\Main.Application.DTO.dll
+D:\Project\Main\Main-Backend\src\Main.Application.DTO\obj\Debug\net9.0\Main.Application.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Main\Main-Backend\src\Main.Application.DTO\obj\Debug\net9.0\Main.Application.DTO.AssemblyInfoInputs.cache
+D:\Project\Main\Main-Backend\src\Main.Application.DTO\obj\Debug\net9.0\Main.Application.DTO.AssemblyInfo.cs
+D:\Project\Main\Main-Backend\src\Main.Application.DTO\obj\Debug\net9.0\Main.Application.DTO.csproj.CoreCompileInputs.cache
+D:\Project\Main\Main-Backend\src\Main.Application.DTO\obj\Debug\net9.0\Main.Application.DTO.sourcelink.json
+D:\Project\Main\Main-Backend\src\Main.Application.DTO\obj\Debug\net9.0\Main.Application.DTO.dll
+D:\Project\Main\Main-Backend\src\Main.Application.DTO\obj\Debug\net9.0\refint\Main.Application.DTO.dll
+D:\Project\Main\Main-Backend\src\Main.Application.DTO\obj\Debug\net9.0\Main.Application.DTO.pdb
+D:\Project\Main\Main-Backend\src\Main.Application.DTO\bin\Debug\net9.0\Main.Application.DTO.deps.json
+D:\Project\Main\Main-Backend\src\Main.Application.DTO\bin\Debug\net9.0\Main.Application.DTO.dll
+D:\Project\Main\Main-Backend\src\Main.Application.DTO\bin\Debug\net9.0\Main.Application.DTO.pdb
+D:\Project\Main\Main-Backend\src\Main.Application.DTO\obj\Debug\net9.0\ref\Main.Application.DTO.dll

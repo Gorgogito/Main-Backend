@@ -9,3 +9,15 @@ D:\Project\Main\Backend\Main.WebApi\src\Main.Domain.Entity\obj\Debug\net9.0\Main
 D:\Project\Main\Backend\Main.WebApi\src\Main.Domain.Entity\obj\Debug\net9.0\refint\Main.Domain.Entity.dll
 D:\Project\Main\Backend\Main.WebApi\src\Main.Domain.Entity\obj\Debug\net9.0\Main.Domain.Entity.pdb
 D:\Project\Main\Backend\Main.WebApi\src\Main.Domain.Entity\obj\Debug\net9.0\ref\Main.Domain.Entity.dll
+D:\Project\Main\Main-Backend\src\Main.Domain.Entity\bin\Debug\net9.0\Main.Domain.Entity.deps.json
+D:\Project\Main\Main-Backend\src\Main.Domain.Entity\bin\Debug\net9.0\Main.Domain.Entity.dll
+D:\Project\Main\Main-Backend\src\Main.Domain.Entity\bin\Debug\net9.0\Main.Domain.Entity.pdb
+D:\Project\Main\Main-Backend\src\Main.Domain.Entity\obj\Debug\net9.0\Main.Domain.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Main\Main-Backend\src\Main.Domain.Entity\obj\Debug\net9.0\Main.Domain.Entity.AssemblyInfoInputs.cache
+D:\Project\Main\Main-Backend\src\Main.Domain.Entity\obj\Debug\net9.0\Main.Domain.Entity.AssemblyInfo.cs
+D:\Project\Main\Main-Backend\src\Main.Domain.Entity\obj\Debug\net9.0\Main.Domain.Entity.csproj.CoreCompileInputs.cache
+D:\Project\Main\Main-Backend\src\Main.Domain.Entity\obj\Debug\net9.0\Main.Domain.Entity.sourcelink.json
+D:\Project\Main\Main-Backend\src\Main.Domain.Entity\obj\Debug\net9.0\Main.Domain.Entity.dll
+D:\Project\Main\Main-Backend\src\Main.Domain.Entity\obj\Debug\net9.0\refint\Main.Domain.Entity.dll
+D:\Project\Main\Main-Backend\src\Main.Domain.Entity\obj\Debug\net9.0\Main.Domain.Entity.pdb
+D:\Project\Main\Main-Backend\src\Main.Domain.Entity\obj\Debug\net9.0\ref\Main.Domain.Entity.dll

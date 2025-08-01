@@ -746,5 +746,185 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.GroupMenuController",
+    "Method": "GroupMenuActualice",
+    "RelativePath": "api/resource/GroupMenu/GroupMenuActualice",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoGroupMenu_Update",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.GroupMenuController",
+    "Method": "GroupMenuActualiceAsync",
+    "RelativePath": "api/resource/GroupMenu/GroupMenuActualiceAsync",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoGroupMenu_Update",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.GroupMenuController",
+    "Method": "GroupMenuDelete",
+    "RelativePath": "api/resource/GroupMenu/GroupMenuDelete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoGroupMenu_Delete",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.GroupMenuController",
+    "Method": "GroupMenuDeleteAsync",
+    "RelativePath": "api/resource/GroupMenu/GroupMenuDeleteAsync",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoGroupMenu_Delete",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.GroupMenuController",
+    "Method": "GroupMenuGetById",
+    "RelativePath": "api/resource/GroupMenu/GroupMenuGetById",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoGroupMenu_GetById",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.GroupMenuController",
+    "Method": "GroupMenuGetByIdAsync",
+    "RelativePath": "api/resource/GroupMenu/GroupMenuGetByIdAsync",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoGroupMenu_GetById",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.GroupMenuController",
+    "Method": "GroupMenuList",
+    "RelativePath": "api/resource/GroupMenu/GroupMenuList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.GroupMenuController",
+    "Method": "GroupMenuListAsync",
+    "RelativePath": "api/resource/GroupMenu/GroupMenuListAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.GroupMenuController",
+    "Method": "GroupMenuListWithPagination",
+    "RelativePath": "api/resource/GroupMenu/GroupMenuListWithPagination",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoGroupMenu_ListWithPagination",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.GroupMenuController",
+    "Method": "GroupMenuListWithPaginationAsync",
+    "RelativePath": "api/resource/GroupMenu/GroupMenuListWithPaginationAsync",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoGroupMenu_ListWithPagination",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.GroupMenuController",
+    "Method": "GroupMenuRegister",
+    "RelativePath": "api/resource/GroupMenu/GroupMenuRegister",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoGroupMenu_Insert",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.GroupMenuController",
+    "Method": "GroupMenuRegisterAsync",
+    "RelativePath": "api/resource/GroupMenu/GroupMenuRegisterAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoGroupMenu_Insert",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

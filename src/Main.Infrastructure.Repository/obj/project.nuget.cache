@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T2BvCwi0UGU=",
+  "dgSpecHash": "4l30a+mleaw=",
   "success": true,
-  "projectFilePath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj",
+  "projectFilePath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ta_jo\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
     "C:\\Users\\ta_jo\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512"

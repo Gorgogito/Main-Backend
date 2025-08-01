@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H2K9HX6I2I8=",
+  "dgSpecHash": "csvmfKwCtXo=",
   "success": true,
-  "projectFilePath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj",
+  "projectFilePath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

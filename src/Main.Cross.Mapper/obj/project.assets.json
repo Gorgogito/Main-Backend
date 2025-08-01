@@ -242,11 +242,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Mapper\\Main.Cross.Mapper.csproj",
+      "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Mapper\\Main.Cross.Mapper.csproj",
       "projectName": "Main.Cross.Mapper",
-      "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Mapper\\Main.Cross.Mapper.csproj",
+      "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Mapper\\Main.Cross.Mapper.csproj",
       "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Mapper\\obj\\",
+      "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Mapper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -268,11 +268,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
-              "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj"
+            "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
+              "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj"
             },
-            "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
-              "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj"
+            "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
+              "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rRQpG8MdBvc=",
+  "dgSpecHash": "hlpxYuBj1bo=",
   "success": true,
-  "projectFilePath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj",
+  "projectFilePath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -2424,11 +2424,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Service.WebApi\\Main.Service.WebApi.csproj",
+      "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Main.Service.WebApi.csproj",
       "projectName": "Main.Service.WebApi",
-      "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Service.WebApi\\Main.Service.WebApi.csproj",
+      "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Main.Service.WebApi.csproj",
       "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Service.WebApi\\obj\\",
+      "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2450,41 +2450,41 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
-              "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj"
+            "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
+              "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj"
             },
-            "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Interface\\Main.Application.Interface.csproj": {
-              "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Interface\\Main.Application.Interface.csproj"
+            "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\Main.Application.Interface.csproj": {
+              "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\Main.Application.Interface.csproj"
             },
-            "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Main\\Main.Application.Main.csproj": {
-              "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Main\\Main.Application.Main.csproj"
+            "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\Main.Application.Main.csproj": {
+              "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\Main.Application.Main.csproj"
             },
-            "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Validator\\Main.Application.Validator.csproj": {
-              "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Validator\\Main.Application.Validator.csproj"
+            "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\Main.Application.Validator.csproj": {
+              "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\Main.Application.Validator.csproj"
             },
-            "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\Main.Cross.Common.csproj": {
-              "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\Main.Cross.Common.csproj"
+            "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Common\\Main.Cross.Common.csproj": {
+              "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Common\\Main.Cross.Common.csproj"
             },
-            "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Mapper\\Main.Cross.Mapper.csproj": {
-              "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Mapper\\Main.Cross.Mapper.csproj"
+            "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Mapper\\Main.Cross.Mapper.csproj": {
+              "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Mapper\\Main.Cross.Mapper.csproj"
             },
-            "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Core\\Main.Domain.Core.csproj": {
-              "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Core\\Main.Domain.Core.csproj"
+            "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\Main.Domain.Core.csproj": {
+              "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\Main.Domain.Core.csproj"
             },
-            "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
-              "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj"
+            "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
+              "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj"
             },
-            "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj": {
-              "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj"
+            "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj": {
+              "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj"
             },
-            "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Data\\Main.Infrastructure.Data.csproj": {
-              "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Data\\Main.Infrastructure.Data.csproj"
+            "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Data\\Main.Infrastructure.Data.csproj": {
+              "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Data\\Main.Infrastructure.Data.csproj"
             },
-            "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj": {
-              "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj"
+            "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj": {
+              "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj"
             },
-            "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj": {
-              "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj"
+            "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj": {
+              "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj"
             }
           }
         }

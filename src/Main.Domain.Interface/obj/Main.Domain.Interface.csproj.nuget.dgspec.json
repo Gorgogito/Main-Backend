@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj": {}
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj": {}
   },
   "projects": {
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj",
+        "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj",
         "projectName": "Main.Domain.Entity",
-        "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj",
+        "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj",
         "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\obj\\",
+        "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,14 +70,14 @@
         }
       }
     },
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj": {
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj",
+        "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj",
         "projectName": "Main.Domain.Interface",
-        "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj",
+        "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj",
         "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\obj\\",
+        "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,8 +99,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj"
               }
             }
           }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Main\\Main.Application.Main.csproj": {}
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\Main.Application.Main.csproj": {}
   },
   "projects": {
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj",
+        "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj",
         "projectName": "Main.Application.DTO",
-        "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj",
+        "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj",
         "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\obj\\",
+        "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,14 +70,14 @@
         }
       }
     },
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Interface\\Main.Application.Interface.csproj": {
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\Main.Application.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Interface\\Main.Application.Interface.csproj",
+        "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\Main.Application.Interface.csproj",
         "projectName": "Main.Application.Interface",
-        "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Interface\\Main.Application.Interface.csproj",
+        "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\Main.Application.Interface.csproj",
         "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Interface\\obj\\",
+        "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,11 +99,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\Main.Cross.Common.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\Main.Cross.Common.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Common\\Main.Cross.Common.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Common\\Main.Cross.Common.csproj"
               }
             }
           }
@@ -143,14 +143,14 @@
         }
       }
     },
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Main\\Main.Application.Main.csproj": {
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\Main.Application.Main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Main\\Main.Application.Main.csproj",
+        "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\Main.Application.Main.csproj",
         "projectName": "Main.Application.Main",
-        "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Main\\Main.Application.Main.csproj",
+        "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\Main.Application.Main.csproj",
         "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Main\\obj\\",
+        "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -172,17 +172,17 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Interface\\Main.Application.Interface.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Interface\\Main.Application.Interface.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\Main.Application.Interface.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\Main.Application.Interface.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Validator\\Main.Application.Validator.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Validator\\Main.Application.Validator.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\Main.Application.Validator.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\Main.Application.Validator.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj"
               }
             }
           }
@@ -228,14 +228,14 @@
         }
       }
     },
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Validator\\Main.Application.Validator.csproj": {
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\Main.Application.Validator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Validator\\Main.Application.Validator.csproj",
+        "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\Main.Application.Validator.csproj",
         "projectName": "Main.Application.Validator",
-        "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Validator\\Main.Application.Validator.csproj",
+        "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\Main.Application.Validator.csproj",
         "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Validator\\obj\\",
+        "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -257,11 +257,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\Main.Cross.Common.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\Main.Cross.Common.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Common\\Main.Cross.Common.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Common\\Main.Cross.Common.csproj"
               }
             }
           }
@@ -311,14 +311,14 @@
         }
       }
     },
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\Main.Cross.Common.csproj": {
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Common\\Main.Cross.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\Main.Cross.Common.csproj",
+        "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Common\\Main.Cross.Common.csproj",
         "projectName": "Main.Cross.Common",
-        "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\Main.Cross.Common.csproj",
+        "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Common\\Main.Cross.Common.csproj",
         "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\obj\\",
+        "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -383,14 +383,14 @@
         }
       }
     },
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj",
+        "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj",
         "projectName": "Main.Domain.Entity",
-        "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj",
+        "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj",
         "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\obj\\",
+        "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -449,14 +449,14 @@
         }
       }
     },
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj": {
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj",
+        "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj",
         "projectName": "Main.Domain.Interface",
-        "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj",
+        "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj",
         "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\obj\\",
+        "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -478,8 +478,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj"
               }
             }
           }

@@ -21,7 +21,6 @@ namespace Main.Service.WebApi.Controllers
             _logger = logger;
         }
 
-
         #region "Métodos Sincronos"
 
         [HttpPost("AccessControlRegister")]
