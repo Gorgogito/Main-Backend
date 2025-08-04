@@ -15,6 +15,8 @@ namespace Main.Service.WebApi.Controllers
         private readonly IAccessControlApplication _entityApplication;
         private readonly Solutions.Utility.AppLogger.ILogger _logger;
 
+        private string Method = string.Empty;
+
         public AccessControlController(IAccessControlApplication entityApplication, Solutions.Utility.AppLogger.ILogger logger)
         {
             _entityApplication = entityApplication;
@@ -26,13 +28,14 @@ namespace Main.Service.WebApi.Controllers
         [HttpPost("AccessControlRegister")]
         public IActionResult AccessControlRegister([FromBody] RequestDtoAccessControl_Insert requestDto)
         {
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
+            Method = MethodBase.GetCurrentMethod()!.Name;
+            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
             if (requestDto == null)
                 return BadRequest();
             var response = _entityApplication.Insert(requestDto);
             if (response.IsSuccess)
             {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
+                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
                 return Ok(response);
             }
 
@@ -42,13 +45,14 @@ namespace Main.Service.WebApi.Controllers
         [HttpPut("AccessControlActualice")]
         public IActionResult AccessControlActualice([FromBody] RequestDtoAccessControl_Update requestDto)
         {
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
+            Method = MethodBase.GetCurrentMethod()!.Name;
+            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
             if (requestDto == null)
                 return BadRequest();
             var response = _entityApplication.Update(requestDto);
             if (response.IsSuccess)
             {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
+                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
                 return Ok(response);
             }
 
@@ -58,13 +62,14 @@ namespace Main.Service.WebApi.Controllers
         [HttpDelete("AccessControlDelete")]
         public IActionResult AccessControlDelete([FromBody] RequestDtoAccessControl_Delete requestDto)
         {
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
+            Method = MethodBase.GetCurrentMethod()!.Name;
+            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
             if (requestDto == null)
                 return BadRequest();
             var response = _entityApplication.Delete(requestDto);
             if (response.IsSuccess)
             {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
+                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
                 return Ok(response);
             }
 
@@ -74,13 +79,14 @@ namespace Main.Service.WebApi.Controllers
         [HttpPatch("AccessControlGetById")]
         public IActionResult AccessControlGetById([FromBody] RequestDtoAccessControl_GetById requestDto)
         {
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
+            Method = MethodBase.GetCurrentMethod()!.Name;
+            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
             if (requestDto == null)
                 return BadRequest();
             var response = _entityApplication.GetById(requestDto);
             if (response.IsSuccess)
             {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
+                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
                 return Ok(response);
             }
 
@@ -90,13 +96,14 @@ namespace Main.Service.WebApi.Controllers
         [HttpPatch("AccessControlGetByResource")]
         public IActionResult AccessControlGetByResource([FromBody] RequestDtoAccessControl_GetByResource requestDto)
         {
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
+            Method = MethodBase.GetCurrentMethod()!.Name;
+            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
             if (requestDto == null)
                 return BadRequest();
             var response = _entityApplication.GetByResource(requestDto);
             if (response.IsSuccess)
             {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
+                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
                 return Ok(response);
             }
 
@@ -106,13 +113,14 @@ namespace Main.Service.WebApi.Controllers
         [HttpPatch("AccessControlGetByProgram")]
         public IActionResult AccessControlGetByProgram([FromBody] RequestDtoAccessControl_GetByProgram requestDto)
         {
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
+            Method = MethodBase.GetCurrentMethod()!.Name;
+            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
             if (requestDto == null)
                 return BadRequest();
             var response = _entityApplication.GetByProgram(requestDto);
             if (response.IsSuccess)
             {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
+                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
                 return Ok(response);
             }
 
@@ -122,11 +130,12 @@ namespace Main.Service.WebApi.Controllers
         [HttpGet("AccessControlList")]
         public IActionResult AccessControlList()
         {
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
+            Method = MethodBase.GetCurrentMethod()!.Name;
+            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
             var response = _entityApplication.List();
             if (response.IsSuccess)
             {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
+                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
                 return Ok(response);
             }
 
@@ -136,13 +145,14 @@ namespace Main.Service.WebApi.Controllers
         [HttpPatch("AccessControlListWithPagination")]
         public IActionResult AccessControlListWithPagination([FromBody] RequestDtoAccessControl_ListWithPagination requestDto)
         {
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
+            Method = MethodBase.GetCurrentMethod()!.Name;
+            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
             if (requestDto == null)
                 return BadRequest();
             var response = _entityApplication.ListWithPagination(requestDto);
             if (response.IsSuccess)
             {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
+                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
                 return Ok(response);
             }
 
@@ -156,13 +166,14 @@ namespace Main.Service.WebApi.Controllers
         [HttpPost("AccessControlRegisterAsync")]
         public async Task<IActionResult> AccessControlRegisterAsync([FromBody] RequestDtoAccessControl_Insert requestDto)
         {
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
+            Method = MethodBase.GetCurrentMethod()!.Name;
+            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
             if (requestDto == null)
                 return BadRequest();
             var response = await _entityApplication.InsertAsync(requestDto);
             if (response.IsSuccess)
             {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
+                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
                 return Ok(response);
             }
 
@@ -172,13 +183,14 @@ namespace Main.Service.WebApi.Controllers
         [HttpPut("AccessControlActualiceAsync")]
         public async Task<IActionResult> AccessControlActualiceAsync([FromBody] RequestDtoAccessControl_Update requestDto)
         {
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
+            Method = MethodBase.GetCurrentMethod()!.Name;
+            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
             if (requestDto == null)
                 return BadRequest();
             var response = await _entityApplication.UpdateAsync(requestDto);
             if (response.IsSuccess)
             {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
+                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
                 return Ok(response);
             }
 
@@ -188,13 +200,14 @@ namespace Main.Service.WebApi.Controllers
         [HttpDelete("AccessControlDeleteAsync")]
         public async Task<IActionResult> AccessControlDeleteAsync([FromBody] RequestDtoAccessControl_Delete requestDto)
         {
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
+            Method = MethodBase.GetCurrentMethod()!.Name;
+            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
             if (requestDto == null)
                 return BadRequest();
             var response = await _entityApplication.DeleteAsync(requestDto);
             if (response.IsSuccess)
             {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
+                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
                 return Ok(response);
             }
 
@@ -204,13 +217,14 @@ namespace Main.Service.WebApi.Controllers
         [HttpPatch("AccessControlGetByIdAsync")]
         public async Task<IActionResult> AccessControlGetByIdAsync([FromBody] RequestDtoAccessControl_GetById requestDto)
         {
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
+            Method = MethodBase.GetCurrentMethod()!.Name;
+            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
             if (requestDto == null)
                 return BadRequest();
             var response = await _entityApplication.GetByIdAsync(requestDto);
             if (response.IsSuccess)
             {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
+                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
                 return Ok(response);
             }
 
@@ -220,13 +234,14 @@ namespace Main.Service.WebApi.Controllers
         [HttpPatch("AccessControlGetByResourceAsync")]
         public async Task<IActionResult> AccessControlGetByResourceAsync([FromBody] RequestDtoAccessControl_GetByResource requestDto)
         {
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
+            Method = MethodBase.GetCurrentMethod()!.Name;
+            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
             if (requestDto == null)
                 return BadRequest();
             var response = await _entityApplication.GetByResourceAsync(requestDto);
             if (response.IsSuccess)
             {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
+                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
                 return Ok(response);
             }
 
@@ -236,13 +251,14 @@ namespace Main.Service.WebApi.Controllers
         [HttpPatch("AccessControlGetByProgramAsync")]
         public async Task<IActionResult> AccessControlGetByProgramAsync([FromBody] RequestDtoAccessControl_GetByProgram requestDto)
         {
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
+            Method = MethodBase.GetCurrentMethod()!.Name;
+            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
             if (requestDto == null)
                 return BadRequest();
             var response = await _entityApplication.GetByProgramAsync(requestDto);
             if (response.IsSuccess)
             {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
+                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
                 return Ok(response);
             }
 
@@ -252,11 +268,12 @@ namespace Main.Service.WebApi.Controllers
         [HttpGet("AccessControlListAsync")]
         public async Task<IActionResult> AccessControlListAsync()
         {
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
+            Method = MethodBase.GetCurrentMethod()!.Name;
+            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
             var response = await _entityApplication.ListAsync();
             if (response.IsSuccess)
             {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
+                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
                 return Ok(response);
             }
 
@@ -266,13 +283,14 @@ namespace Main.Service.WebApi.Controllers
         [HttpPatch("AccessControlListWithPaginationAsync")]
         public async Task<IActionResult> AccessControlListWithPaginationAsync([FromBody] RequestDtoAccessControl_ListWithPagination requestDto)
         {
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
+            Method = MethodBase.GetCurrentMethod()!.Name;
+            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
             if (requestDto == null)
                 return BadRequest();
             var response = await _entityApplication.ListWithPaginationAsync(requestDto);
             if (response.IsSuccess)
             {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
+                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
                 return Ok(response);
             }
 

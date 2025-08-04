@@ -1,7 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-
-namespace Main.Application.DTO.Request
+﻿namespace Main.Application.DTO.Request
 {
 
     public class RequestDtoAccessControl_Insert

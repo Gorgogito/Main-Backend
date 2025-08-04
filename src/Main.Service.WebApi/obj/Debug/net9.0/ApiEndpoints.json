@@ -926,5 +926,217 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
+    "Method": "MenuActualice",
+    "RelativePath": "api/resource/Menu/MenuActualice",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoMenu_Update",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
+    "Method": "MenuActualiceAsync",
+    "RelativePath": "api/resource/Menu/MenuActualiceAsync",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoMenu_Update",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
+    "Method": "MenuDelete",
+    "RelativePath": "api/resource/Menu/MenuDelete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoMenu_Delete",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
+    "Method": "MenuDeleteAsync",
+    "RelativePath": "api/resource/Menu/MenuDeleteAsync",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoMenu_Delete",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
+    "Method": "MenuGetByGroupMenu",
+    "RelativePath": "api/resource/Menu/MenuGetByGroupMenu",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoMenu_GetByGroupMenu",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
+    "Method": "MenuGetByGroupMenuAsync",
+    "RelativePath": "api/resource/Menu/MenuGetByGroupMenuAsync",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoMenu_GetByGroupMenu",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
+    "Method": "MenuGetById",
+    "RelativePath": "api/resource/Menu/MenuGetById",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoMenu_GetById",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
+    "Method": "MenuGetByIdAsync",
+    "RelativePath": "api/resource/Menu/MenuGetByIdAsync",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoMenu_GetById",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
+    "Method": "MenuList",
+    "RelativePath": "api/resource/Menu/MenuList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
+    "Method": "MenuListAsync",
+    "RelativePath": "api/resource/Menu/MenuListAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
+    "Method": "MenuListWithPagination",
+    "RelativePath": "api/resource/Menu/MenuListWithPagination",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoMenu_ListWithPagination",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
+    "Method": "MenuListWithPaginationAsync",
+    "RelativePath": "api/resource/Menu/MenuListWithPaginationAsync",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoMenu_ListWithPagination",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
+    "Method": "MenuRegister",
+    "RelativePath": "api/resource/Menu/MenuRegister",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoMenu_Insert",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
+    "Method": "MenuRegisterAsync",
+    "RelativePath": "api/resource/Menu/MenuRegisterAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoMenu_Insert",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
