@@ -3,56 +3,20 @@
   "WorkspaceRootPath": "D:\\Project\\Main\\Main-Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|d:\\project\\main\\main-backend\\src\\main.service.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|solutionrelative:src\\main.service.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|d:\\project\\main\\main-backend\\src\\main.service.webapi\\modules\\logging\\loggingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|solutionrelative:src\\main.service.webapi\\modules\\logging\\loggingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|d:\\project\\main\\main-backend\\src\\main.service.webapi\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|solutionrelative:src\\main.service.webapi\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|d:\\project\\main\\main-backend\\src\\main.service.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|solutionrelative:src\\main.service.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9555ECB-A141-45EB-95D8-A49D942F7E7F}|src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj|d:\\project\\main\\main-backend\\src\\main.infrastructure.repository\\menurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9555ECB-A141-45EB-95D8-A49D942F7E7F}|src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj|solutionrelative:src\\main.infrastructure.repository\\menurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB75AF01-AA5C-4C85-9EC2-3E15D2312CEB}|src\\Main.Application.Main\\Main.Application.Main.csproj|d:\\project\\main\\main-backend\\src\\main.application.main\\menuapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB75AF01-AA5C-4C85-9EC2-3E15D2312CEB}|src\\Main.Application.Main\\Main.Application.Main.csproj|solutionrelative:src\\main.application.main\\menuapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|d:\\project\\main\\main-backend\\src\\main.service.webapi\\controllers\\accesscontrolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|solutionrelative:src\\main.service.webapi\\controllers\\accesscontrolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F848B3A8-E60C-4022-9421-D535CF76B717}|src\\Main.Application.Interface\\Main.Application.Interface.csproj|d:\\project\\main\\main-backend\\src\\main.application.interface\\imenuapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F848B3A8-E60C-4022-9421-D535CF76B717}|src\\Main.Application.Interface\\Main.Application.Interface.csproj|solutionrelative:src\\main.application.interface\\imenuapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFB4C893-9FC1-4433-98A3-368706244D31}|src\\Main.Application.DTO\\Main.Application.DTO.csproj|d:\\project\\main\\main-backend\\src\\main.application.dto\\request\\requestdtomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFB4C893-9FC1-4433-98A3-368706244D31}|src\\Main.Application.DTO\\Main.Application.DTO.csproj|solutionrelative:src\\main.application.dto\\request\\requestdtomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA846B1-20DF-4B67-9A8F-26F293369157}|src\\Main.Application.Validator\\Main.Application.Validator.csproj|d:\\project\\main\\main-backend\\src\\main.application.validator\\menudtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DA846B1-20DF-4B67-9A8F-26F293369157}|src\\Main.Application.Validator\\Main.Application.Validator.csproj|solutionrelative:src\\main.application.validator\\menudtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AFB4C893-9FC1-4433-98A3-368706244D31}|src\\Main.Application.DTO\\Main.Application.DTO.csproj|d:\\project\\main\\main-backend\\src\\main.application.dto\\response\\responsedtomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFB4C893-9FC1-4433-98A3-368706244D31}|src\\Main.Application.DTO\\Main.Application.DTO.csproj|solutionrelative:src\\main.application.dto\\response\\responsedtomenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2EC3112-0784-4F22-92DA-3BF16CB8F2F3}|src\\Main.Domain.Entity\\Main.Domain.Entity.csproj|d:\\project\\main\\main-backend\\src\\main.domain.entity\\resource\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2EC3112-0784-4F22-92DA-3BF16CB8F2F3}|src\\Main.Domain.Entity\\Main.Domain.Entity.csproj|solutionrelative:src\\main.domain.entity\\resource\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0325E98-39AC-40AD-A976-5DC9F37CD333}|src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj|d:\\project\\main\\main-backend\\src\\main.infrastructure.interface\\imenurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0325E98-39AC-40AD-A976-5DC9F37CD333}|src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj|solutionrelative:src\\main.infrastructure.interface\\imenurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B11257A-8A1B-41AB-BE1E-478769A774EB}|src\\Main.Domain.Core\\Main.Domain.Core.csproj|d:\\project\\main\\main-backend\\src\\main.domain.core\\menudomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B11257A-8A1B-41AB-BE1E-478769A774EB}|src\\Main.Domain.Core\\Main.Domain.Core.csproj|solutionrelative:src\\main.domain.core\\menudomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF5C8FEC-6A29-4ABC-917D-1CE80CA772B3}|src\\Main.Domain.Interface\\Main.Domain.Interface.csproj|d:\\project\\main\\main-backend\\src\\main.domain.interface\\imenudomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF5C8FEC-6A29-4ABC-917D-1CE80CA772B3}|src\\Main.Domain.Interface\\Main.Domain.Interface.csproj|solutionrelative:src\\main.domain.interface\\imenudomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|d:\\project\\main\\main-backend\\src\\main.service.webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|solutionrelative:src\\main.service.webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,115 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\Main.Service.WebApi\\appsettings.json",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\appsettings.json",
-              "RelativeToolTip": "src\\Main.Service.WebApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-04T22:46:49.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MenuController.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Controllers\\MenuController.cs",
-              "RelativeDocumentMoniker": "src\\Main.Service.WebApi\\Controllers\\MenuController.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Controllers\\MenuController.cs",
-              "RelativeToolTip": "src\\Main.Service.WebApi\\Controllers\\MenuController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T20:32:03.838Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AccessControlController.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Controllers\\AccessControlController.cs",
-              "RelativeDocumentMoniker": "src\\Main.Service.WebApi\\Controllers\\AccessControlController.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Controllers\\AccessControlController.cs",
-              "RelativeToolTip": "src\\Main.Service.WebApi\\Controllers\\AccessControlController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T20:19:51.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MenuApplication.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\MenuApplication.cs",
-              "RelativeDocumentMoniker": "src\\Main.Application.Main\\MenuApplication.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\MenuApplication.cs",
-              "RelativeToolTip": "src\\Main.Application.Main\\MenuApplication.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAawEAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T17:50:57.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IMenuApplication.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\IMenuApplication.cs",
-              "RelativeDocumentMoniker": "src\\Main.Application.Interface\\IMenuApplication.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\IMenuApplication.cs",
-              "RelativeToolTip": "src\\Main.Application.Interface\\IMenuApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T17:09:40.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MenuDtoValidator.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\MenuDtoValidator.cs",
-              "RelativeDocumentMoniker": "src\\Main.Application.Validator\\MenuDtoValidator.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\MenuDtoValidator.cs",
-              "RelativeToolTip": "src\\Main.Application.Validator\\MenuDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T17:43:26.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ResponseDtoMenu.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Response\\ResponseDtoMenu.cs",
-              "RelativeDocumentMoniker": "src\\Main.Application.DTO\\Response\\ResponseDtoMenu.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Response\\ResponseDtoMenu.cs",
-              "RelativeToolTip": "src\\Main.Application.DTO\\Response\\ResponseDtoMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T17:36:32.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RequestDtoMenu.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Request\\RequestDtoMenu.cs",
-              "RelativeDocumentMoniker": "src\\Main.Application.DTO\\Request\\RequestDtoMenu.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Request\\RequestDtoMenu.cs",
-              "RelativeToolTip": "src\\Main.Application.DTO\\Request\\RequestDtoMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T17:11:47.785Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -180,61 +40,48 @@
               "RelativeDocumentMoniker": "src\\Main.Infrastructure.Repository\\MenuRepository.cs",
               "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Repository\\MenuRepository.cs",
               "RelativeToolTip": "src\\Main.Infrastructure.Repository\\MenuRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T14:05:17.11Z",
+              "WhenOpened": "2025-08-05T00:06:47.246Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IMenuRepository.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\IMenuRepository.cs",
-              "RelativeDocumentMoniker": "src\\Main.Infrastructure.Interface\\IMenuRepository.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\IMenuRepository.cs",
-              "RelativeToolTip": "src\\Main.Infrastructure.Interface\\IMenuRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Startup.cs",
+              "RelativeDocumentMoniker": "src\\Main.Service.WebApi\\Startup.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Startup.cs",
+              "RelativeToolTip": "src\\Main.Service.WebApi\\Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T13:56:53.083Z",
+              "WhenOpened": "2025-08-04T23:51:24.356Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MenuDomain.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\MenuDomain.cs",
-              "RelativeDocumentMoniker": "src\\Main.Domain.Core\\MenuDomain.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\MenuDomain.cs",
-              "RelativeToolTip": "src\\Main.Domain.Core\\MenuDomain.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "LoggingExtensions.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Modules\\Logging\\LoggingExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Main.Service.WebApi\\Modules\\Logging\\LoggingExtensions.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Modules\\Logging\\LoggingExtensions.cs",
+              "RelativeToolTip": "src\\Main.Service.WebApi\\Modules\\Logging\\LoggingExtensions.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T15:56:29.813Z",
+              "WhenOpened": "2025-08-04T23:30:24.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IMenuDomain.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\IMenuDomain.cs",
-              "RelativeDocumentMoniker": "src\\Main.Domain.Interface\\IMenuDomain.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\IMenuDomain.cs",
-              "RelativeToolTip": "src\\Main.Domain.Interface\\IMenuDomain.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T13:56:39.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Resource\\Menu.cs",
-              "RelativeDocumentMoniker": "src\\Main.Domain.Entity\\Resource\\Menu.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Resource\\Menu.cs",
-              "RelativeToolTip": "src\\Main.Domain.Entity\\Resource\\Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T13:55:03.657Z",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Main.Service.WebApi\\appsettings.json",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\appsettings.json",
+              "RelativeToolTip": "src\\Main.Service.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-04T22:46:49.794Z",
               "EditorCaption": ""
             }
           ]
