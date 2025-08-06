@@ -147,122 +147,122 @@ namespace Main.Service.WebApi.Controllers
 
         #region "Métodos Asincronos"
 
-        [HttpPost("MenuRegisterAsync")]
-        public async Task<IActionResult> MenuRegisterAsync([FromBody] RequestDtoMenu_Insert requestDto)
-        {
-            Method = MethodBase.GetCurrentMethod()!.Name;
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
-            if (requestDto == null)
-                return BadRequest();
-            var response = await _entityApplication.InsertAsync(requestDto);
-            if (response.IsSuccess)
-            {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
-                return Ok(response);
-            }
+        //[HttpPost("MenuRegisterAsync")]
+        //public async Task<IActionResult> MenuRegisterAsync([FromBody] RequestDtoMenu_Insert requestDto)
+        //{
+        //    Method = MethodBase.GetCurrentMethod()!.Name;
+        //    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
+        //    if (requestDto == null)
+        //        return BadRequest();
+        //    var response = await _entityApplication.InsertAsync(requestDto);
+        //    if (response.IsSuccess)
+        //    {
+        //        _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
+        //        return Ok(response);
+        //    }
 
-            return BadRequest(response);
-        }
+        //    return BadRequest(response);
+        //}
 
-        [HttpPut("MenuActualiceAsync")]
-        public async Task<IActionResult> MenuActualiceAsync([FromBody] RequestDtoMenu_Update requestDto)
-        {
-            Method = MethodBase.GetCurrentMethod()!.Name;
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
-            if (requestDto == null)
-                return BadRequest();
-            var response = await _entityApplication.UpdateAsync(requestDto);
-            if (response.IsSuccess)
-            {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
-                return Ok(response);
-            }
+        //[HttpPut("MenuActualiceAsync")]
+        //public async Task<IActionResult> MenuActualiceAsync([FromBody] RequestDtoMenu_Update requestDto)
+        //{
+        //    Method = MethodBase.GetCurrentMethod()!.Name;
+        //    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
+        //    if (requestDto == null)
+        //        return BadRequest();
+        //    var response = await _entityApplication.UpdateAsync(requestDto);
+        //    if (response.IsSuccess)
+        //    {
+        //        _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
+        //        return Ok(response);
+        //    }
 
-            return BadRequest(response);
-        }
+        //    return BadRequest(response);
+        //}
 
-        [HttpDelete("MenuDeleteAsync")]
-        public async Task<IActionResult> MenuDeleteAsync([FromBody] RequestDtoMenu_Delete requestDto)
-        {
-            Method = MethodBase.GetCurrentMethod()!.Name;
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
-            if (requestDto == null)
-                return BadRequest();
-            var response = await _entityApplication.DeleteAsync(requestDto);
-            if (response.IsSuccess)
-            {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
-                return Ok(response);
-            }
+        //[HttpDelete("MenuDeleteAsync")]
+        //public async Task<IActionResult> MenuDeleteAsync([FromBody] RequestDtoMenu_Delete requestDto)
+        //{
+        //    Method = MethodBase.GetCurrentMethod()!.Name;
+        //    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
+        //    if (requestDto == null)
+        //        return BadRequest();
+        //    var response = await _entityApplication.DeleteAsync(requestDto);
+        //    if (response.IsSuccess)
+        //    {
+        //        _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
+        //        return Ok(response);
+        //    }
 
-            return BadRequest(response);
-        }
+        //    return BadRequest(response);
+        //}
 
-        [HttpPatch("MenuGetByIdAsync")]
-        public async Task<IActionResult> MenuGetByIdAsync([FromBody] RequestDtoMenu_GetById requestDto)
-        {
-            Method = MethodBase.GetCurrentMethod()!.Name;
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
-            if (requestDto == null)
-                return BadRequest();
-            var response = await _entityApplication.GetByIdAsync(requestDto);
-            if (response.IsSuccess)
-            {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
-                return Ok(response);
-            }
+        //[HttpPatch("MenuGetByIdAsync")]
+        //public async Task<IActionResult> MenuGetByIdAsync([FromBody] RequestDtoMenu_GetById requestDto)
+        //{
+        //    Method = MethodBase.GetCurrentMethod()!.Name;
+        //    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
+        //    if (requestDto == null)
+        //        return BadRequest();
+        //    var response = await _entityApplication.GetByIdAsync(requestDto);
+        //    if (response.IsSuccess)
+        //    {
+        //        _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
+        //        return Ok(response);
+        //    }
 
-            return BadRequest(response);
-        }
+        //    return BadRequest(response);
+        //}
 
-        [HttpPatch("MenuGetByGroupMenuAsync")]
-        public async Task<IActionResult> MenuGetByGroupMenuAsync([FromBody] RequestDtoMenu_GetByGroupMenu requestDto)
-        {
-            Method = MethodBase.GetCurrentMethod()!.Name;
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
-            if (requestDto == null)
-                return BadRequest();
-            var response = await _entityApplication.GetByGroupMenuAsync(requestDto);
-            if (response.IsSuccess)
-            {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
-                return Ok(response);
-            }
+        //[HttpPatch("MenuGetByGroupMenuAsync")]
+        //public async Task<IActionResult> MenuGetByGroupMenuAsync([FromBody] RequestDtoMenu_GetByGroupMenu requestDto)
+        //{
+        //    Method = MethodBase.GetCurrentMethod()!.Name;
+        //    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
+        //    if (requestDto == null)
+        //        return BadRequest();
+        //    var response = await _entityApplication.GetByGroupMenuAsync(requestDto);
+        //    if (response.IsSuccess)
+        //    {
+        //        _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
+        //        return Ok(response);
+        //    }
 
-            return BadRequest(response);
-        }
+        //    return BadRequest(response);
+        //}
 
-        [HttpGet("MenuListAsync")]
-        public async Task<IActionResult> MenuListAsync()
-        {
-            Method = MethodBase.GetCurrentMethod()!.Name;
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
-            var response = await _entityApplication.ListAsync();
-            if (response.IsSuccess)
-            {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
-                return Ok(response);
-            }
+        //[HttpGet("MenuListAsync")]
+        //public async Task<IActionResult> MenuListAsync()
+        //{
+        //    Method = MethodBase.GetCurrentMethod()!.Name;
+        //    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
+        //    var response = await _entityApplication.ListAsync();
+        //    if (response.IsSuccess)
+        //    {
+        //        _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
+        //        return Ok(response);
+        //    }
 
-            return BadRequest(response);
-        }
+        //    return BadRequest(response);
+        //}
 
-        [HttpPatch("MenuListWithPaginationAsync")]
-        public async Task<IActionResult> MenuListWithPaginationAsync([FromBody] RequestDtoMenu_ListWithPagination requestDto)
-        {
-            Method = MethodBase.GetCurrentMethod()!.Name;
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
-            if (requestDto == null)
-                return BadRequest();
-            var response = await _entityApplication.ListWithPaginationAsync(requestDto);
-            if (response.IsSuccess)
-            {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
-                return Ok(response);
-            }
+        //[HttpPatch("MenuListWithPaginationAsync")]
+        //public async Task<IActionResult> MenuListWithPaginationAsync([FromBody] RequestDtoMenu_ListWithPagination requestDto)
+        //{
+        //    Method = MethodBase.GetCurrentMethod()!.Name;
+        //    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Accediendo al servicio");
+        //    if (requestDto == null)
+        //        return BadRequest();
+        //    var response = await _entityApplication.ListWithPaginationAsync(requestDto);
+        //    if (response.IsSuccess)
+        //    {
+        //        _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Servicio Exitoso!!!");
+        //        return Ok(response);
+        //    }
 
-            return BadRequest(response);
-        }
+        //    return BadRequest(response);
+        //}
 
         #endregion
 

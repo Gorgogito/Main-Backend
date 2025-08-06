@@ -17,40 +17,8 @@
   },
   {
     "ContainingType": "Main.Service.WebApi.Controllers.EncryptingController",
-    "Method": "DecryptStringAsync",
-    "RelativePath": "api/function/Encrypting/DecryptStringAsync",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.EncryptingController",
     "Method": "EncryptString",
     "RelativePath": "api/function/Encrypting/EncryptString",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.EncryptingController",
-    "Method": "EncryptStringAsync",
-    "RelativePath": "api/function/Encrypting/EncryptStringAsync",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
@@ -97,40 +65,8 @@
   },
   {
     "ContainingType": "Main.Service.WebApi.Controllers.UserController",
-    "Method": "UserActualiceAsync",
-    "RelativePath": "api/identy/User/UserActualiceAsync",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoUser_Update",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.UserController",
     "Method": "UserDelete",
     "RelativePath": "api/identy/User/UserDelete",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoUser_Delete",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.UserController",
-    "Method": "UserDeleteAsync",
-    "RelativePath": "api/identy/User/UserDeleteAsync",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -161,34 +97,8 @@
   },
   {
     "ContainingType": "Main.Service.WebApi.Controllers.UserController",
-    "Method": "UserGetByIdAsync",
-    "RelativePath": "api/identy/User/UserGetByIdAsync",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoUser_GetById",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.UserController",
     "Method": "UserList",
     "RelativePath": "api/identy/User/UserList",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.UserController",
-    "Method": "UserListAsync",
-    "RelativePath": "api/identy/User/UserListAsync",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -213,40 +123,8 @@
   },
   {
     "ContainingType": "Main.Service.WebApi.Controllers.UserController",
-    "Method": "UserListWithPaginationAsync",
-    "RelativePath": "api/identy/User/UserListWithPaginationAsync",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoUser_ListWithPagination",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.UserController",
     "Method": "UserRegister",
     "RelativePath": "api/identy/User/UserRegister",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoUser_Insert",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.UserController",
-    "Method": "UserRegisterAsync",
-    "RelativePath": "api/identy/User/UserRegisterAsync",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -277,40 +155,8 @@
   },
   {
     "ContainingType": "Main.Service.WebApi.Controllers.AccessControlController",
-    "Method": "AccessControlActualiceAsync",
-    "RelativePath": "api/resource/AccessControl/AccessControlActualiceAsync",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoAccessControl_Update",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.AccessControlController",
     "Method": "AccessControlDelete",
     "RelativePath": "api/resource/AccessControl/AccessControlDelete",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoAccessControl_Delete",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.AccessControlController",
-    "Method": "AccessControlDeleteAsync",
-    "RelativePath": "api/resource/AccessControl/AccessControlDeleteAsync",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -341,40 +187,8 @@
   },
   {
     "ContainingType": "Main.Service.WebApi.Controllers.AccessControlController",
-    "Method": "AccessControlGetByIdAsync",
-    "RelativePath": "api/resource/AccessControl/AccessControlGetByIdAsync",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoAccessControl_GetById",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.AccessControlController",
     "Method": "AccessControlGetByProgram",
     "RelativePath": "api/resource/AccessControl/AccessControlGetByProgram",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoAccessControl_GetByProgram",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.AccessControlController",
-    "Method": "AccessControlGetByProgramAsync",
-    "RelativePath": "api/resource/AccessControl/AccessControlGetByProgramAsync",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
@@ -405,34 +219,8 @@
   },
   {
     "ContainingType": "Main.Service.WebApi.Controllers.AccessControlController",
-    "Method": "AccessControlGetByResourceAsync",
-    "RelativePath": "api/resource/AccessControl/AccessControlGetByResourceAsync",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoAccessControl_GetByResource",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.AccessControlController",
     "Method": "AccessControlList",
     "RelativePath": "api/resource/AccessControl/AccessControlList",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.AccessControlController",
-    "Method": "AccessControlListAsync",
-    "RelativePath": "api/resource/AccessControl/AccessControlListAsync",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -457,40 +245,8 @@
   },
   {
     "ContainingType": "Main.Service.WebApi.Controllers.AccessControlController",
-    "Method": "AccessControlListWithPaginationAsync",
-    "RelativePath": "api/resource/AccessControl/AccessControlListWithPaginationAsync",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoAccessControl_ListWithPagination",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.AccessControlController",
     "Method": "AccessControlRegister",
     "RelativePath": "api/resource/AccessControl/AccessControlRegister",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoAccessControl_Insert",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.AccessControlController",
-    "Method": "AccessControlRegisterAsync",
-    "RelativePath": "api/resource/AccessControl/AccessControlRegisterAsync",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -521,40 +277,8 @@
   },
   {
     "ContainingType": "Main.Service.WebApi.Controllers.AdministrationController",
-    "Method": "AdministrationActualiceAsync",
-    "RelativePath": "api/resource/Administration/AdministrationActualiceAsync",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoAdministration_Update",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.AdministrationController",
     "Method": "AdministrationDelete",
     "RelativePath": "api/resource/Administration/AdministrationDelete",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoAdministration_Delete",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.AdministrationController",
-    "Method": "AdministrationDeleteAsync",
-    "RelativePath": "api/resource/Administration/AdministrationDeleteAsync",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -585,40 +309,8 @@
   },
   {
     "ContainingType": "Main.Service.WebApi.Controllers.AdministrationController",
-    "Method": "AdministrationGetByIdAsync",
-    "RelativePath": "api/resource/Administration/AdministrationGetByIdAsync",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoAdministration_GetById",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.AdministrationController",
     "Method": "AdministrationGetByResource",
     "RelativePath": "api/resource/Administration/AdministrationGetByResource",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoAdministration_GetByResource",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.AdministrationController",
-    "Method": "AdministrationGetByResourceAsync",
-    "RelativePath": "api/resource/Administration/AdministrationGetByResourceAsync",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
@@ -649,34 +341,8 @@
   },
   {
     "ContainingType": "Main.Service.WebApi.Controllers.AdministrationController",
-    "Method": "AdministrationGetByRoleAsync",
-    "RelativePath": "api/resource/Administration/AdministrationGetByRoleAsync",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoAdministration_GetByRole",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.AdministrationController",
     "Method": "AdministrationList",
     "RelativePath": "api/resource/Administration/AdministrationList",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.AdministrationController",
-    "Method": "AdministrationListAsync",
-    "RelativePath": "api/resource/Administration/AdministrationListAsync",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -701,40 +367,8 @@
   },
   {
     "ContainingType": "Main.Service.WebApi.Controllers.AdministrationController",
-    "Method": "AdministrationListWithPaginationAsync",
-    "RelativePath": "api/resource/Administration/AdministrationListWithPaginationAsync",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoAdministration_ListWithPagination",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.AdministrationController",
     "Method": "AdministrationRegister",
     "RelativePath": "api/resource/Administration/AdministrationRegister",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoAdministration_Insert",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.AdministrationController",
-    "Method": "AdministrationRegisterAsync",
-    "RelativePath": "api/resource/Administration/AdministrationRegisterAsync",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -765,40 +399,8 @@
   },
   {
     "ContainingType": "Main.Service.WebApi.Controllers.GroupMenuController",
-    "Method": "GroupMenuActualiceAsync",
-    "RelativePath": "api/resource/GroupMenu/GroupMenuActualiceAsync",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoGroupMenu_Update",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.GroupMenuController",
     "Method": "GroupMenuDelete",
     "RelativePath": "api/resource/GroupMenu/GroupMenuDelete",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoGroupMenu_Delete",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.GroupMenuController",
-    "Method": "GroupMenuDeleteAsync",
-    "RelativePath": "api/resource/GroupMenu/GroupMenuDeleteAsync",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -829,34 +431,8 @@
   },
   {
     "ContainingType": "Main.Service.WebApi.Controllers.GroupMenuController",
-    "Method": "GroupMenuGetByIdAsync",
-    "RelativePath": "api/resource/GroupMenu/GroupMenuGetByIdAsync",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoGroupMenu_GetById",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.GroupMenuController",
     "Method": "GroupMenuList",
     "RelativePath": "api/resource/GroupMenu/GroupMenuList",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.GroupMenuController",
-    "Method": "GroupMenuListAsync",
-    "RelativePath": "api/resource/GroupMenu/GroupMenuListAsync",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -881,40 +457,8 @@
   },
   {
     "ContainingType": "Main.Service.WebApi.Controllers.GroupMenuController",
-    "Method": "GroupMenuListWithPaginationAsync",
-    "RelativePath": "api/resource/GroupMenu/GroupMenuListWithPaginationAsync",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoGroupMenu_ListWithPagination",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.GroupMenuController",
     "Method": "GroupMenuRegister",
     "RelativePath": "api/resource/GroupMenu/GroupMenuRegister",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoGroupMenu_Insert",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.GroupMenuController",
-    "Method": "GroupMenuRegisterAsync",
-    "RelativePath": "api/resource/GroupMenu/GroupMenuRegisterAsync",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -945,40 +489,8 @@
   },
   {
     "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
-    "Method": "MenuActualiceAsync",
-    "RelativePath": "api/resource/Menu/MenuActualiceAsync",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoMenu_Update",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
     "Method": "MenuDelete",
     "RelativePath": "api/resource/Menu/MenuDelete",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoMenu_Delete",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
-    "Method": "MenuDeleteAsync",
-    "RelativePath": "api/resource/Menu/MenuDeleteAsync",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -1009,40 +521,8 @@
   },
   {
     "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
-    "Method": "MenuGetByGroupMenuAsync",
-    "RelativePath": "api/resource/Menu/MenuGetByGroupMenuAsync",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoMenu_GetByGroupMenu",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
     "Method": "MenuGetById",
     "RelativePath": "api/resource/Menu/MenuGetById",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoMenu_GetById",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
-    "Method": "MenuGetByIdAsync",
-    "RelativePath": "api/resource/Menu/MenuGetByIdAsync",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
@@ -1067,16 +547,6 @@
   },
   {
     "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
-    "Method": "MenuListAsync",
-    "RelativePath": "api/resource/Menu/MenuListAsync",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
     "Method": "MenuListWithPagination",
     "RelativePath": "api/resource/Menu/MenuListWithPagination",
     "HttpMethod": "PATCH",
@@ -1093,40 +563,8 @@
   },
   {
     "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
-    "Method": "MenuListWithPaginationAsync",
-    "RelativePath": "api/resource/Menu/MenuListWithPaginationAsync",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoMenu_ListWithPagination",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
     "Method": "MenuRegister",
     "RelativePath": "api/resource/Menu/MenuRegister",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "requestDto",
-        "Type": "Main.Application.DTO.Request.RequestDtoMenu_Insert",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Main.Service.WebApi.Controllers.MenuController",
-    "Method": "MenuRegisterAsync",
-    "RelativePath": "api/resource/Menu/MenuRegisterAsync",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
