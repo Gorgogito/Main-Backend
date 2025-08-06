@@ -44,6 +44,14 @@ namespace Main.Service.WebApi.Modules.Validator
             services.AddTransient<MenuDto_GetByGroupMenu_Validator>();
             services.AddTransient<MenuDto_ListWithPagination_Validator>();
 
+            services.AddTransient<ProgramDto_Insert_Validator>();
+            services.AddTransient<ProgramDto_Update_Validator>();
+            services.AddTransient<ProgramDto_Delete_Validator>();
+            services.AddTransient<ProgramDto_GetById_Validator>();
+            services.AddTransient<ProgramDto_GetByGroupMenu_Validator>();
+            services.AddTransient<ProgramDto_GetByMenu_Validator>();
+            services.AddTransient<ProgramDto_ListWithPagination_Validator>();
+
             return services;
         }
 

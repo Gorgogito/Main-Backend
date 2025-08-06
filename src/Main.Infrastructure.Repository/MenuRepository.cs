@@ -134,7 +134,7 @@ namespace Main.Infrastructure.Repository
                 using (var connection = _connectionFactory.GetConnection)
                 {
                     var parameters = new DynamicParameters();
-                    parameters.Add("@CodeResource", codeGroupMenu);
+                    parameters.Add("@CodeGroupMenu", codeGroupMenu);
                     var query = "[dbo].[MenuGetByGroupMenu]";
                     var entity = connection.Query<Menu>(query, param: parameters, commandType: CommandType.StoredProcedure);
                     _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method , "Consulta Exitosa!!!");
@@ -306,7 +306,7 @@ namespace Main.Infrastructure.Repository
                 using (var connection = _connectionFactory.GetConnection)
                 {
                     var parameters = new DynamicParameters();
-                    parameters.Add("@CodeResource", codeGroupMenu);
+                    parameters.Add("@CodeGroupMenu", codeGroupMenu);
                     var query = "[dbo].[MenuGetByGroupMenu]";
                     var entity = await connection.QueryAsync<Menu>(query, param: parameters, commandType: CommandType.StoredProcedure);
                     _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method , "Consulta Exitosa!!!");
@@ -364,7 +364,6 @@ namespace Main.Infrastructure.Repository
         }
 
         #endregion
-
 
     }
 }

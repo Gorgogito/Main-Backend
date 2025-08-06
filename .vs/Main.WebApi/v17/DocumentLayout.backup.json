@@ -3,20 +3,48 @@
   "WorkspaceRootPath": "D:\\Project\\Main\\Main-Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|d:\\project\\main\\main-backend\\src\\main.service.webapi\\modules\\logging\\loggingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|solutionrelative:src\\main.service.webapi\\modules\\logging\\loggingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B11257A-8A1B-41AB-BE1E-478769A774EB}|src\\Main.Domain.Core\\Main.Domain.Core.csproj|d:\\project\\main\\main-backend\\src\\main.domain.core\\programdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B11257A-8A1B-41AB-BE1E-478769A774EB}|src\\Main.Domain.Core\\Main.Domain.Core.csproj|solutionrelative:src\\main.domain.core\\programdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|d:\\project\\main\\main-backend\\src\\main.service.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|solutionrelative:src\\main.service.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E9555ECB-A141-45EB-95D8-A49D942F7E7F}|src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj|d:\\project\\main\\main-backend\\src\\main.infrastructure.repository\\programrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9555ECB-A141-45EB-95D8-A49D942F7E7F}|src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj|solutionrelative:src\\main.infrastructure.repository\\programrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9555ECB-A141-45EB-95D8-A49D942F7E7F}|src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj|d:\\project\\main\\main-backend\\src\\main.infrastructure.repository\\menurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9555ECB-A141-45EB-95D8-A49D942F7E7F}|src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj|solutionrelative:src\\main.infrastructure.repository\\menurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7DA846B1-20DF-4B67-9A8F-26F293369157}|src\\Main.Application.Validator\\Main.Application.Validator.csproj|d:\\project\\main\\main-backend\\src\\main.application.validator\\programdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA846B1-20DF-4B67-9A8F-26F293369157}|src\\Main.Application.Validator\\Main.Application.Validator.csproj|solutionrelative:src\\main.application.validator\\programdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|d:\\project\\main\\main-backend\\src\\main.service.webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|solutionrelative:src\\main.service.webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB75AF01-AA5C-4C85-9EC2-3E15D2312CEB}|src\\Main.Application.Main\\Main.Application.Main.csproj|d:\\project\\main\\main-backend\\src\\main.application.main\\programapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB75AF01-AA5C-4C85-9EC2-3E15D2312CEB}|src\\Main.Application.Main\\Main.Application.Main.csproj|solutionrelative:src\\main.application.main\\programapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|d:\\project\\main\\main-backend\\src\\main.service.webapi\\controllers\\programcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|solutionrelative:src\\main.service.webapi\\controllers\\programcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F848B3A8-E60C-4022-9421-D535CF76B717}|src\\Main.Application.Interface\\Main.Application.Interface.csproj|d:\\project\\main\\main-backend\\src\\main.application.interface\\iprogramapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F848B3A8-E60C-4022-9421-D535CF76B717}|src\\Main.Application.Interface\\Main.Application.Interface.csproj|solutionrelative:src\\main.application.interface\\iprogramapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB4C893-9FC1-4433-98A3-368706244D31}|src\\Main.Application.DTO\\Main.Application.DTO.csproj|d:\\project\\main\\main-backend\\src\\main.application.dto\\request\\requestdtoprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB4C893-9FC1-4433-98A3-368706244D31}|src\\Main.Application.DTO\\Main.Application.DTO.csproj|solutionrelative:src\\main.application.dto\\request\\requestdtoprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFB4C893-9FC1-4433-98A3-368706244D31}|src\\Main.Application.DTO\\Main.Application.DTO.csproj|d:\\project\\main\\main-backend\\src\\main.application.dto\\response\\responsedtoprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB4C893-9FC1-4433-98A3-368706244D31}|src\\Main.Application.DTO\\Main.Application.DTO.csproj|solutionrelative:src\\main.application.dto\\response\\responsedtoprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2EC3112-0784-4F22-92DA-3BF16CB8F2F3}|src\\Main.Domain.Entity\\Main.Domain.Entity.csproj|d:\\project\\main\\main-backend\\src\\main.domain.entity\\resource\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2EC3112-0784-4F22-92DA-3BF16CB8F2F3}|src\\Main.Domain.Entity\\Main.Domain.Entity.csproj|solutionrelative:src\\main.domain.entity\\resource\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5C8FEC-6A29-4ABC-917D-1CE80CA772B3}|src\\Main.Domain.Interface\\Main.Domain.Interface.csproj|d:\\project\\main\\main-backend\\src\\main.domain.interface\\iprogramdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF5C8FEC-6A29-4ABC-917D-1CE80CA772B3}|src\\Main.Domain.Interface\\Main.Domain.Interface.csproj|solutionrelative:src\\main.domain.interface\\iprogramdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0325E98-39AC-40AD-A976-5DC9F37CD333}|src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj|d:\\project\\main\\main-backend\\src\\main.infrastructure.interface\\iprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0325E98-39AC-40AD-A976-5DC9F37CD333}|src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj|solutionrelative:src\\main.infrastructure.interface\\iprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +62,145 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MenuRepository.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Repository\\MenuRepository.cs",
-              "RelativeDocumentMoniker": "src\\Main.Infrastructure.Repository\\MenuRepository.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Repository\\MenuRepository.cs",
-              "RelativeToolTip": "src\\Main.Infrastructure.Repository\\MenuRepository.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ProgramController.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Controllers\\ProgramController.cs",
+              "RelativeDocumentMoniker": "src\\Main.Service.WebApi\\Controllers\\ProgramController.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Controllers\\ProgramController.cs",
+              "RelativeToolTip": "src\\Main.Service.WebApi\\Controllers\\ProgramController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwEEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-05T00:06:47.246Z",
+              "WhenOpened": "2025-08-06T13:50:33.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Startup.cs",
-              "RelativeDocumentMoniker": "src\\Main.Service.WebApi\\Startup.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Startup.cs",
-              "RelativeToolTip": "src\\Main.Service.WebApi\\Startup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABCAAAAAAAAAA==",
+              "Title": "ProgramApplication.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\ProgramApplication.cs",
+              "RelativeDocumentMoniker": "src\\Main.Application.Main\\ProgramApplication.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\ProgramApplication.cs",
+              "RelativeToolTip": "src\\Main.Application.Main\\ProgramApplication.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAKoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T23:51:24.356Z",
+              "WhenOpened": "2025-08-05T23:47:45.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoggingExtensions.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Modules\\Logging\\LoggingExtensions.cs",
-              "RelativeDocumentMoniker": "src\\Main.Service.WebApi\\Modules\\Logging\\LoggingExtensions.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Modules\\Logging\\LoggingExtensions.cs",
-              "RelativeToolTip": "src\\Main.Service.WebApi\\Modules\\Logging\\LoggingExtensions.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "IProgramApplication.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\IProgramApplication.cs",
+              "RelativeDocumentMoniker": "src\\Main.Application.Interface\\IProgramApplication.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\IProgramApplication.cs",
+              "RelativeToolTip": "src\\Main.Application.Interface\\IProgramApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T23:30:24.422Z",
+              "WhenOpened": "2025-08-05T23:42:57.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProgramDtoValidator.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\ProgramDtoValidator.cs",
+              "RelativeDocumentMoniker": "src\\Main.Application.Validator\\ProgramDtoValidator.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\ProgramDtoValidator.cs",
+              "RelativeToolTip": "src\\Main.Application.Validator\\ProgramDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T23:32:24.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ResponseDtoProgram.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Response\\ResponseDtoProgram.cs",
+              "RelativeDocumentMoniker": "src\\Main.Application.DTO\\Response\\ResponseDtoProgram.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Response\\ResponseDtoProgram.cs",
+              "RelativeToolTip": "src\\Main.Application.DTO\\Response\\ResponseDtoProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T23:31:22.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RequestDtoProgram.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Request\\RequestDtoProgram.cs",
+              "RelativeDocumentMoniker": "src\\Main.Application.DTO\\Request\\RequestDtoProgram.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Request\\RequestDtoProgram.cs",
+              "RelativeToolTip": "src\\Main.Application.DTO\\Request\\RequestDtoProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T23:25:50.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\Main.Service.WebApi\\appsettings.json",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\appsettings.json",
-              "RelativeToolTip": "src\\Main.Service.WebApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-04T22:46:49.794Z",
+              "Title": "ProgramRepository.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Repository\\ProgramRepository.cs",
+              "RelativeDocumentMoniker": "src\\Main.Infrastructure.Repository\\ProgramRepository.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Repository\\ProgramRepository.cs",
+              "RelativeToolTip": "src\\Main.Infrastructure.Repository\\ProgramRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T14:07:18.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IProgramRepository.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\IProgramRepository.cs",
+              "RelativeDocumentMoniker": "src\\Main.Infrastructure.Interface\\IProgramRepository.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\IProgramRepository.cs",
+              "RelativeToolTip": "src\\Main.Infrastructure.Interface\\IProgramRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T14:03:30.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProgramDomain.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\ProgramDomain.cs",
+              "RelativeDocumentMoniker": "src\\Main.Domain.Core\\ProgramDomain.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\ProgramDomain.cs",
+              "RelativeToolTip": "src\\Main.Domain.Core\\ProgramDomain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T23:08:23.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProgramDomain.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\IProgramDomain.cs",
+              "RelativeDocumentMoniker": "src\\Main.Domain.Interface\\IProgramDomain.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\IProgramDomain.cs",
+              "RelativeToolTip": "src\\Main.Domain.Interface\\IProgramDomain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T14:03:02.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Resource\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Main.Domain.Entity\\Resource\\Program.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Resource\\Program.cs",
+              "RelativeToolTip": "src\\Main.Domain.Entity\\Resource\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T13:17:08.743Z",
               "EditorCaption": ""
             }
           ]

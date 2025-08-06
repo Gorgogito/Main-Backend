@@ -1138,5 +1138,127 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.ProgramController",
+    "Method": "ProgramActualice",
+    "RelativePath": "api/resource/Program/ProgramActualice",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoProgram_Update",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.ProgramController",
+    "Method": "ProgramDelete",
+    "RelativePath": "api/resource/Program/ProgramDelete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoProgram_Delete",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.ProgramController",
+    "Method": "ProgramGetByGroupMenu",
+    "RelativePath": "api/resource/Program/ProgramGetByGroupMenu",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoProgram_GetByGroupMenu",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.ProgramController",
+    "Method": "ProgramGetById",
+    "RelativePath": "api/resource/Program/ProgramGetById",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoProgram_GetById",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.ProgramController",
+    "Method": "ProgramGetByMenu",
+    "RelativePath": "api/resource/Program/ProgramGetByMenu",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoProgram_GetByMenu",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.ProgramController",
+    "Method": "ProgramList",
+    "RelativePath": "api/resource/Program/ProgramList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.ProgramController",
+    "Method": "ProgramListWithPagination",
+    "RelativePath": "api/resource/Program/ProgramListWithPagination",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoProgram_ListWithPagination",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.ProgramController",
+    "Method": "ProgramRegister",
+    "RelativePath": "api/resource/Program/ProgramRegister",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoProgram_Insert",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
