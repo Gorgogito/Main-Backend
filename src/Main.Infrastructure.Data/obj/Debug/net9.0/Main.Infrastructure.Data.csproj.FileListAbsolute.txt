@@ -1,0 +1,16 @@
+D:\Project\Main\Main-Backend\src\Main.Infrastructure.Data\bin\Debug\net9.0\Main.Infrastructure.Data.deps.json
+D:\Project\Main\Main-Backend\src\Main.Infrastructure.Data\bin\Debug\net9.0\Main.Infrastructure.Data.dll
+D:\Project\Main\Main-Backend\src\Main.Infrastructure.Data\bin\Debug\net9.0\Main.Infrastructure.Data.pdb
+D:\Project\Main\Main-Backend\src\Main.Infrastructure.Data\bin\Debug\net9.0\Main.Cross.Common.dll
+D:\Project\Main\Main-Backend\src\Main.Infrastructure.Data\bin\Debug\net9.0\Main.Cross.Common.pdb
+D:\Project\Main\Main-Backend\src\Main.Infrastructure.Data\obj\Debug\net9.0\Main.Infrastructure.Data.csproj.AssemblyReference.cache
+D:\Project\Main\Main-Backend\src\Main.Infrastructure.Data\obj\Debug\net9.0\Main.Infrastructure.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Main\Main-Backend\src\Main.Infrastructure.Data\obj\Debug\net9.0\Main.Infrastructure.Data.AssemblyInfoInputs.cache
+D:\Project\Main\Main-Backend\src\Main.Infrastructure.Data\obj\Debug\net9.0\Main.Infrastructure.Data.AssemblyInfo.cs
+D:\Project\Main\Main-Backend\src\Main.Infrastructure.Data\obj\Debug\net9.0\Main.Infrastructure.Data.csproj.CoreCompileInputs.cache
+D:\Project\Main\Main-Backend\src\Main.Infrastructure.Data\obj\Debug\net9.0\Main.Infrastructure.Data.sourcelink.json
+D:\Project\Main\Main-Backend\src\Main.Infrastructure.Data\obj\Debug\net9.0\Main.Inf.8E59893A.Up2Date
+D:\Project\Main\Main-Backend\src\Main.Infrastructure.Data\obj\Debug\net9.0\Main.Infrastructure.Data.dll
+D:\Project\Main\Main-Backend\src\Main.Infrastructure.Data\obj\Debug\net9.0\refint\Main.Infrastructure.Data.dll
+D:\Project\Main\Main-Backend\src\Main.Infrastructure.Data\obj\Debug\net9.0\Main.Infrastructure.Data.pdb
+D:\Project\Main\Main-Backend\src\Main.Infrastructure.Data\obj\Debug\net9.0\ref\Main.Infrastructure.Data.dll
