@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Service.WebApi\\Main.Service.WebApi.csproj": {}
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Main.Service.WebApi.csproj": {}
   },
   "projects": {
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj",
+        "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj",
         "projectName": "Main.Application.DTO",
-        "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj",
+        "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj",
         "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\obj\\",
+        "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -66,18 +66,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Interface\\Main.Application.Interface.csproj": {
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\Main.Application.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Interface\\Main.Application.Interface.csproj",
+        "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\Main.Application.Interface.csproj",
         "projectName": "Main.Application.Interface",
-        "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Interface\\Main.Application.Interface.csproj",
+        "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\Main.Application.Interface.csproj",
         "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Interface\\obj\\",
+        "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,11 +99,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\Main.Cross.Common.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\Main.Cross.Common.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Common\\Main.Cross.Common.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Common\\Main.Cross.Common.csproj"
               }
             }
           }
@@ -139,18 +139,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Main\\Main.Application.Main.csproj": {
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\Main.Application.Main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Main\\Main.Application.Main.csproj",
+        "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\Main.Application.Main.csproj",
         "projectName": "Main.Application.Main",
-        "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Main\\Main.Application.Main.csproj",
+        "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\Main.Application.Main.csproj",
         "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Main\\obj\\",
+        "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -172,17 +172,17 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Interface\\Main.Application.Interface.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Interface\\Main.Application.Interface.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\Main.Application.Interface.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\Main.Application.Interface.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Validator\\Main.Application.Validator.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Validator\\Main.Application.Validator.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\Main.Application.Validator.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\Main.Application.Validator.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj"
               }
             }
           }
@@ -224,18 +224,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Validator\\Main.Application.Validator.csproj": {
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\Main.Application.Validator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Validator\\Main.Application.Validator.csproj",
+        "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\Main.Application.Validator.csproj",
         "projectName": "Main.Application.Validator",
-        "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Validator\\Main.Application.Validator.csproj",
+        "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\Main.Application.Validator.csproj",
         "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Validator\\obj\\",
+        "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -257,11 +257,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\Main.Cross.Common.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\Main.Cross.Common.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Common\\Main.Cross.Common.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Common\\Main.Cross.Common.csproj"
               }
             }
           }
@@ -307,18 +307,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\Main.Cross.Common.csproj": {
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Common\\Main.Cross.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\Main.Cross.Common.csproj",
+        "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Common\\Main.Cross.Common.csproj",
         "projectName": "Main.Cross.Common",
-        "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\Main.Cross.Common.csproj",
+        "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Common\\Main.Cross.Common.csproj",
         "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\obj\\",
+        "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -379,18 +379,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Mapper\\Main.Cross.Mapper.csproj": {
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Mapper\\Main.Cross.Mapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Mapper\\Main.Cross.Mapper.csproj",
+        "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Mapper\\Main.Cross.Mapper.csproj",
         "projectName": "Main.Cross.Mapper",
-        "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Mapper\\Main.Cross.Mapper.csproj",
+        "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Mapper\\Main.Cross.Mapper.csproj",
         "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Mapper\\obj\\",
+        "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Mapper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -412,11 +412,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj"
               }
             }
           }
@@ -458,18 +458,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Core\\Main.Domain.Core.csproj": {
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\Main.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Core\\Main.Domain.Core.csproj",
+        "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\Main.Domain.Core.csproj",
         "projectName": "Main.Domain.Core",
-        "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Core\\Main.Domain.Core.csproj",
+        "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\Main.Domain.Core.csproj",
         "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Core\\obj\\",
+        "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -491,14 +491,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj"
               }
             }
           }
@@ -534,18 +534,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj",
+        "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj",
         "projectName": "Main.Domain.Entity",
-        "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj",
+        "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj",
         "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\obj\\",
+        "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -600,18 +600,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj": {
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj",
+        "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj",
         "projectName": "Main.Domain.Interface",
-        "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj",
+        "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj",
         "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\obj\\",
+        "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -633,8 +633,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj"
               }
             }
           }
@@ -670,18 +670,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Data\\Main.Infrastructure.Data.csproj": {
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Data\\Main.Infrastructure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Data\\Main.Infrastructure.Data.csproj",
+        "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Data\\Main.Infrastructure.Data.csproj",
         "projectName": "Main.Infrastructure.Data",
-        "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Data\\Main.Infrastructure.Data.csproj",
+        "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Data\\Main.Infrastructure.Data.csproj",
         "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Data\\obj\\",
+        "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -703,8 +703,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\Main.Cross.Common.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\Main.Cross.Common.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Common\\Main.Cross.Common.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Common\\Main.Cross.Common.csproj"
               }
             }
           }
@@ -750,18 +750,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj": {
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj",
+        "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj",
         "projectName": "Main.Infrastructure.Interface",
-        "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj",
+        "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj",
         "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Interface\\obj\\",
+        "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -783,8 +783,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj"
               }
             }
           }
@@ -820,18 +820,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj": {
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj",
+        "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj",
         "projectName": "Main.Infrastructure.Repository",
-        "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj",
+        "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj",
         "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Repository\\obj\\",
+        "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -853,11 +853,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\Main.Cross.Common.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\Main.Cross.Common.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Common\\Main.Cross.Common.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Common\\Main.Cross.Common.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj"
               }
             }
           }
@@ -899,18 +899,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Service.WebApi\\Main.Service.WebApi.csproj": {
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Main.Service.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Service.WebApi\\Main.Service.WebApi.csproj",
+        "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Main.Service.WebApi.csproj",
         "projectName": "Main.Service.WebApi",
-        "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Service.WebApi\\Main.Service.WebApi.csproj",
+        "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Main.Service.WebApi.csproj",
         "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Service.WebApi\\obj\\",
+        "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -932,41 +932,41 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Interface\\Main.Application.Interface.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Interface\\Main.Application.Interface.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\Main.Application.Interface.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\Main.Application.Interface.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Main\\Main.Application.Main.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Main\\Main.Application.Main.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\Main.Application.Main.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\Main.Application.Main.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Validator\\Main.Application.Validator.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.Validator\\Main.Application.Validator.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\Main.Application.Validator.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\Main.Application.Validator.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\Main.Cross.Common.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Common\\Main.Cross.Common.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Common\\Main.Cross.Common.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Common\\Main.Cross.Common.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Mapper\\Main.Cross.Mapper.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Cross.Mapper\\Main.Cross.Mapper.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Mapper\\Main.Cross.Mapper.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Cross.Mapper\\Main.Cross.Mapper.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Core\\Main.Domain.Core.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Core\\Main.Domain.Core.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\Main.Domain.Core.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\Main.Domain.Core.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Data\\Main.Infrastructure.Data.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Data\\Main.Infrastructure.Data.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Data\\Main.Infrastructure.Data.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Data\\Main.Infrastructure.Data.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj"
               },
-              "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj": {
-                "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj"
+              "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj": {
+                "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj"
               }
             }
           }
@@ -1043,7 +1043,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -123,99 +123,99 @@ namespace Main.Service.WebApi.Controllers
 
         #region "Métodos Asincronos"
 
-        [HttpPost("UserRegisterAsync")]
-        public async Task<IActionResult> UserRegisterAsync([FromBody] RequestDtoUser_Insert requestDto)
-        {
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
-            if (requestDto == null)
-                return BadRequest();
-            var response = await _entityApplication.InsertAsync(requestDto);
-            if (response.IsSuccess)
-            {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
-                return Ok(response);
-            }
+        //[HttpPost("UserRegisterAsync")]
+        //public async Task<IActionResult> UserRegisterAsync([FromBody] RequestDtoUser_Insert requestDto)
+        //{
+        //    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
+        //    if (requestDto == null)
+        //        return BadRequest();
+        //    var response = await _entityApplication.InsertAsync(requestDto);
+        //    if (response.IsSuccess)
+        //    {
+        //        _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
+        //        return Ok(response);
+        //    }
 
-            return BadRequest(response);
-        }
+        //    return BadRequest(response);
+        //}
 
-        [HttpPut("UserActualiceAsync")]
-        public async Task<IActionResult> UserActualiceAsync([FromBody] RequestDtoUser_Update requestDto)
-        {
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
-            if (requestDto == null)
-                return BadRequest();
-            var response = await _entityApplication.UpdateAsync(requestDto);
-            if (response.IsSuccess)
-            {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
-                return Ok(response);
-            }
+        //[HttpPut("UserActualiceAsync")]
+        //public async Task<IActionResult> UserActualiceAsync([FromBody] RequestDtoUser_Update requestDto)
+        //{
+        //    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
+        //    if (requestDto == null)
+        //        return BadRequest();
+        //    var response = await _entityApplication.UpdateAsync(requestDto);
+        //    if (response.IsSuccess)
+        //    {
+        //        _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
+        //        return Ok(response);
+        //    }
 
-            return BadRequest(response);
-        }
+        //    return BadRequest(response);
+        //}
 
-        [HttpDelete("UserDeleteAsync")]
-        public async Task<IActionResult> UserDeleteAsync([FromBody] RequestDtoUser_Delete requestDto)
-        {
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
-            if (requestDto == null)
-                return BadRequest();
-            var response = await _entityApplication.DeleteAsync(requestDto);
-            if (response.IsSuccess)
-            {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
-                return Ok(response);
-            }
+        //[HttpDelete("UserDeleteAsync")]
+        //public async Task<IActionResult> UserDeleteAsync([FromBody] RequestDtoUser_Delete requestDto)
+        //{
+        //    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
+        //    if (requestDto == null)
+        //        return BadRequest();
+        //    var response = await _entityApplication.DeleteAsync(requestDto);
+        //    if (response.IsSuccess)
+        //    {
+        //        _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
+        //        return Ok(response);
+        //    }
 
-            return BadRequest(response);
-        }
+        //    return BadRequest(response);
+        //}
 
-        [HttpPatch("UserGetByIdAsync")]
-        public async Task<IActionResult> UserGetByIdAsync([FromBody] RequestDtoUser_GetById requestDto)
-        {
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
-            if (requestDto == null)
-                return BadRequest();
-            var response = await _entityApplication.GetByIdAsync(requestDto);
-            if (response.IsSuccess)
-            {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
-                return Ok(response);
-            }
+        //[HttpPatch("UserGetByIdAsync")]
+        //public async Task<IActionResult> UserGetByIdAsync([FromBody] RequestDtoUser_GetById requestDto)
+        //{
+        //    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
+        //    if (requestDto == null)
+        //        return BadRequest();
+        //    var response = await _entityApplication.GetByIdAsync(requestDto);
+        //    if (response.IsSuccess)
+        //    {
+        //        _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
+        //        return Ok(response);
+        //    }
 
-            return BadRequest(response);
-        }
+        //    return BadRequest(response);
+        //}
 
-        [HttpGet("UserListAsync")]
-        public async Task<IActionResult> UserListAsync()
-        {
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
-            var response = await _entityApplication.ListAsync();
-            if (response.IsSuccess)
-            {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
-                return Ok(response);
-            }
+        //[HttpGet("UserListAsync")]
+        //public async Task<IActionResult> UserListAsync()
+        //{
+        //    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
+        //    var response = await _entityApplication.ListAsync();
+        //    if (response.IsSuccess)
+        //    {
+        //        _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
+        //        return Ok(response);
+        //    }
 
-            return BadRequest(response);
-        }
+        //    return BadRequest(response);
+        //}
 
-        [HttpPatch("UserListWithPaginationAsync")]
-        public async Task<IActionResult> UserListWithPaginationAsync([FromBody] RequestDtoUser_ListWithPagination requestDto)
-        {
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
-            if (requestDto == null)
-                return BadRequest();
-            var response = await _entityApplication.ListWithPaginationAsync(requestDto);
-            if (response.IsSuccess)
-            {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
-                return Ok(response);
-            }
+        //[HttpPatch("UserListWithPaginationAsync")]
+        //public async Task<IActionResult> UserListWithPaginationAsync([FromBody] RequestDtoUser_ListWithPagination requestDto)
+        //{
+        //    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
+        //    if (requestDto == null)
+        //        return BadRequest();
+        //    var response = await _entityApplication.ListWithPaginationAsync(requestDto);
+        //    if (response.IsSuccess)
+        //    {
+        //        _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
+        //        return Ok(response);
+        //    }
 
-            return BadRequest(response);
-        }
+        //    return BadRequest(response);
+        //}
 
         #endregion
 

@@ -71,11 +71,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Core\\Main.Domain.Core.csproj",
+      "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\Main.Domain.Core.csproj",
       "projectName": "Main.Domain.Core",
-      "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Core\\Main.Domain.Core.csproj",
+      "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\Main.Domain.Core.csproj",
       "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Core\\obj\\",
+      "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,14 +97,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
-              "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj"
+            "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj": {
+              "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Main.Domain.Entity.csproj"
             },
-            "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj": {
-              "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj"
+            "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj": {
+              "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\Main.Domain.Interface.csproj"
             },
-            "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj": {
-              "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj"
+            "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj": {
+              "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj"
             }
           }
         }
@@ -140,7 +140,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

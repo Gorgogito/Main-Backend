@@ -62,37 +62,37 @@ namespace Main.Service.WebApi.Controllers
 
         #region "Métodos Asincronos"
 
-        [AllowAnonymous]
-        [HttpPatch("EncryptStringAsync")]
-        public async Task<IActionResult> EncryptStringAsync([FromBody] string requestDto)
-        {
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
-            if (requestDto == null)
-                return BadRequest();
-            var response = await _entityApplication.EncryptStringAsync(requestDto);
-            if (response.IsSuccess)
-            {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
-                return Ok(response);
-            }
+        //[AllowAnonymous]
+        //[HttpPatch("EncryptStringAsync")]
+        //public async Task<IActionResult> EncryptStringAsync([FromBody] string requestDto)
+        //{
+        //    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
+        //    if (requestDto == null)
+        //        return BadRequest();
+        //    var response = await _entityApplication.EncryptStringAsync(requestDto);
+        //    if (response.IsSuccess)
+        //    {
+        //        _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
+        //        return Ok(response);
+        //    }
 
-            return BadRequest(response);
-        }
+        //    return BadRequest(response);
+        //}
 
-        [AllowAnonymous]
-        [HttpPatch("DecryptStringAsync")]
-        public async Task<IActionResult> DecryptStringAsync([FromBody] string requestDto)
-        {
-            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
-            var response = await _entityApplication.DecryptStringAsync(requestDto);
-            if (response.IsSuccess)
-            {
-                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
-                return Ok(response);
-            }
+        //[AllowAnonymous]
+        //[HttpPatch("DecryptStringAsync")]
+        //public async Task<IActionResult> DecryptStringAsync([FromBody] string requestDto)
+        //{
+        //    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Accediendo al servicio");
+        //    var response = await _entityApplication.DecryptStringAsync(requestDto);
+        //    if (response.IsSuccess)
+        //    {
+        //        _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Servicio Exitoso!!!");
+        //        return Ok(response);
+        //    }
 
-            return BadRequest(response.Message);
-        }
+        //    return BadRequest(response.Message);
+        //}
 
         #endregion
 

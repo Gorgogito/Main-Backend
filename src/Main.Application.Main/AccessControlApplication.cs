@@ -11,7 +11,7 @@ using Solutions.Utility.AppLogger;
 
 namespace Main.Application.Main
 {
-    public class AccessControlApplication: IAccessControlApplication
+    public class AccessControlApplication : IAccessControlApplication
     {
 
         #region Variables Privadas
@@ -26,6 +26,8 @@ namespace Main.Application.Main
         private readonly AccessControlDto_GetByResource_Validator _getByResourceDtoValidator;
         private readonly AccessControlDto_GetByProgram_Validator _getByProgramDtoValidator;
         private readonly AccessControlDto_ListWithPagination_Validator _withPaginatioDtoValidator;
+
+        private string Method = string.Empty;
 
         #endregion
 
@@ -53,7 +55,7 @@ namespace Main.Application.Main
             _deleteDtoValidator = deleteDtoValidator;
             _getByIdDtoValidator = getByIdDtoValidator;
             _withPaginatioDtoValidator = withPaginatioDtoValidator;
-            _getByResourceDtoValidator= getByResourceDtoValidator;
+            _getByResourceDtoValidator = getByResourceDtoValidator;
             _getByProgramDtoValidator = getByProgramDtoValidator;
         }
 
@@ -63,6 +65,7 @@ namespace Main.Application.Main
 
         public Response<bool> Insert(RequestDtoAccessControl_Insert request)
         {
+            Method = MethodBase.GetCurrentMethod()!.Name;
             var response = new Response<bool>();
 
             var validation = _insertDtoValidator.Validate(new RequestDtoAccessControl_Insert()
@@ -83,7 +86,7 @@ namespace Main.Application.Main
             {
                 response.Message = "Errores de Validación";
                 response.Errors = validation.Errors;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, validation.Errors);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, validation.Errors);
                 return response;
             }
 
@@ -94,20 +97,21 @@ namespace Main.Application.Main
                 if (response.Data)
                 {
                     response.IsSuccess = true;
-                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Registro Exitoso!!!");
+                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Registro Exitoso!!!");
                     response.Message = "Registro Exitoso!!!";
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, e.Message);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, e.Message);
             }
             return response;
         }
 
         public Response<bool> Update(RequestDtoAccessControl_Update request)
         {
+            Method = MethodBase.GetCurrentMethod()!.Name;
             var response = new Response<bool>();
 
             var validation = _updateDtoValidator.Validate(new RequestDtoAccessControl_Update()
@@ -128,7 +132,7 @@ namespace Main.Application.Main
             {
                 response.Message = "Errores de Validación";
                 response.Errors = validation.Errors;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, validation.Errors);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, validation.Errors);
                 return response;
             }
 
@@ -139,7 +143,7 @@ namespace Main.Application.Main
                 {
                     response.Message = exist.Response.Message;
                     response.Errors = exist.Response.Errors;
-                    _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, exist.Response.Errors);
+                    _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, exist.Response.Errors);
                     return response;
                 }
 
@@ -148,20 +152,21 @@ namespace Main.Application.Main
                 if (response.Data)
                 {
                     response.IsSuccess = true;
-                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Actualización Exitosa!!!");
+                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Actualización Exitosa!!!");
                     response.Message = "Actualización Exitosa!!!";
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, e.Message);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, e.Message);
             }
             return response;
         }
 
         public Response<bool> Delete(RequestDtoAccessControl_Delete request)
         {
+            Method = MethodBase.GetCurrentMethod()!.Name;
             var response = new Response<bool>();
 
             var validation = _deleteDtoValidator.Validate(new RequestDtoAccessControl_Delete()
@@ -171,7 +176,7 @@ namespace Main.Application.Main
             {
                 response.Message = "Errores de Validación";
                 response.Errors = validation.Errors;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, validation.Errors);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, validation.Errors);
                 return response;
             }
 
@@ -182,7 +187,7 @@ namespace Main.Application.Main
                 {
                     response.Message = exist.Response.Message;
                     response.Errors = exist.Response.Errors;
-                    _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, exist.Response.Errors);
+                    _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, exist.Response.Errors);
                     return response;
                 }
 
@@ -191,19 +196,20 @@ namespace Main.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Eliminación Exitosa!!!";
-                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Eliminación Exitosa!!!");
+                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Eliminación Exitosa!!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, e.Message);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, e.Message);
             }
             return response;
         }
 
         public Response<ResponseDtoAccessControl> GetById(RequestDtoAccessControl_GetById request)
         {
+            Method = MethodBase.GetCurrentMethod()!.Name;
             var response = new Response<ResponseDtoAccessControl>();
 
             var validation = _getByIdDtoValidator.Validate(new RequestDtoAccessControl_GetById()
@@ -213,7 +219,7 @@ namespace Main.Application.Main
             {
                 response.Message = "Errores de Validación";
                 response.Errors = validation.Errors;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, validation.Errors);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, validation.Errors);
                 return response;
             }
 
@@ -224,7 +230,7 @@ namespace Main.Application.Main
                 {
                     response.Message = exist.Response.Message;
                     response.Errors = exist.Response.Errors;
-                    _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, exist.Response.Errors);
+                    _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, exist.Response.Errors);
                     return response;
                 }
 
@@ -234,19 +240,20 @@ namespace Main.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Consulta Exitosa!!!";
-                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Consulta Exitosa!!!");
+                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Consulta Exitosa!!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, e.Message);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, e.Message);
             }
             return response;
         }
 
         public Response<IEnumerable<ResponseDtoAccessControl>> GetByResource(RequestDtoAccessControl_GetByResource request)
         {
+            Method = MethodBase.GetCurrentMethod()!.Name;
             var response = new Response<IEnumerable<ResponseDtoAccessControl>>();
 
             var validation = _getByResourceDtoValidator.Validate(new RequestDtoAccessControl_GetByResource()
@@ -256,7 +263,7 @@ namespace Main.Application.Main
             {
                 response.Message = "Errores de Validación";
                 response.Errors = validation.Errors;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, validation.Errors);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, validation.Errors);
                 return response;
             }
 
@@ -267,7 +274,7 @@ namespace Main.Application.Main
                 {
                     response.Message = exist.Response.Message;
                     response.Errors = exist.Response.Errors;
-                    _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, exist.Response.Errors);
+                    _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, exist.Response.Errors);
                     return response;
                 }
 
@@ -277,19 +284,20 @@ namespace Main.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Consulta Exitosa!!!";
-                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Consulta Exitosa!!!");
+                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Consulta Exitosa!!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, e.Message);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, e.Message);
             }
             return response;
         }
 
         public Response<IEnumerable<ResponseDtoAccessControl>> GetByProgram(RequestDtoAccessControl_GetByProgram request)
         {
+            Method = MethodBase.GetCurrentMethod()!.Name;
             var response = new Response<IEnumerable<ResponseDtoAccessControl>>();
 
             var validation = _getByProgramDtoValidator.Validate(new RequestDtoAccessControl_GetByProgram()
@@ -299,7 +307,7 @@ namespace Main.Application.Main
             {
                 response.Message = "Errores de Validación";
                 response.Errors = validation.Errors;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, validation.Errors);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, validation.Errors);
                 return response;
             }
 
@@ -310,7 +318,7 @@ namespace Main.Application.Main
                 {
                     response.Message = exist.Response.Message;
                     response.Errors = exist.Response.Errors;
-                    _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, exist.Response.Errors);
+                    _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, exist.Response.Errors);
                     return response;
                 }
 
@@ -320,19 +328,20 @@ namespace Main.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Consulta Exitosa!!!";
-                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Consulta Exitosa!!!");
+                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Consulta Exitosa!!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, e.Message);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, e.Message);
             }
             return response;
         }
 
         public Response<IEnumerable<ResponseDtoAccessControl>> List()
         {
+            Method = MethodBase.GetCurrentMethod()!.Name;
             var response = new Response<IEnumerable<ResponseDtoAccessControl>>();
             try
             {
@@ -342,19 +351,20 @@ namespace Main.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Consulta Exitosa!!!";
-                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Consulta Exitosa!!!");
+                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Consulta Exitosa!!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, e.Message);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, e.Message);
             }
             return response;
         }
 
         public Response<IEnumerable<ResponseDtoAccessControl>> ListWithPagination(RequestDtoAccessControl_ListWithPagination request)
         {
+            Method = MethodBase.GetCurrentMethod()!.Name;
             var response = new Response<IEnumerable<ResponseDtoAccessControl>>();
 
             var validation = _withPaginatioDtoValidator.Validate(new RequestDtoAccessControl_ListWithPagination()
@@ -367,7 +377,7 @@ namespace Main.Application.Main
             {
                 response.Message = "Errores de Validación";
                 response.Errors = validation.Errors;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, validation.Errors);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, validation.Errors);
                 return response;
             }
 
@@ -380,13 +390,13 @@ namespace Main.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Consulta Exitosa!!!";
-                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Consulta Exitosa!!!");
+                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Consulta Exitosa!!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, e.Message);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, e.Message);
             }
             return response;
         }
@@ -397,6 +407,7 @@ namespace Main.Application.Main
 
         public async Task<Response<bool>> InsertAsync(RequestDtoAccessControl_Insert request)
         {
+            Method = MethodBase.GetCurrentMethod()!.Name;
             var response = new Response<bool>();
 
             var validation = _insertDtoValidator.Validate(new RequestDtoAccessControl_Insert()
@@ -417,7 +428,7 @@ namespace Main.Application.Main
             {
                 response.Message = "Errores de Validación";
                 response.Errors = validation.Errors;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, validation.Errors);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, validation.Errors);
                 return response;
             }
 
@@ -429,12 +440,12 @@ namespace Main.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Registro Exitoso!!!";
-                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Registro Exitoso!!!");
+                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Registro Exitoso!!!");
                 }
             }
             catch (Exception e)
             {
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, e.Message);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, e.Message);
                 response.Message = e.Message;
             }
             return response;
@@ -442,6 +453,7 @@ namespace Main.Application.Main
 
         public async Task<Response<bool>> UpdateAsync(RequestDtoAccessControl_Update request)
         {
+            Method = MethodBase.GetCurrentMethod()!.Name;
             var response = new Response<bool>();
 
             var validation = _updateDtoValidator.Validate(new RequestDtoAccessControl_Update()
@@ -462,7 +474,7 @@ namespace Main.Application.Main
             {
                 response.Message = "Errores de Validación";
                 response.Errors = validation.Errors;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, validation.Errors);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, validation.Errors);
                 return response;
             }
 
@@ -474,7 +486,7 @@ namespace Main.Application.Main
                 {
                     response.Message = exist.Response.Message;
                     response.Errors = exist.Response.Errors;
-                    _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, exist.Response.Errors);
+                    _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, exist.Response.Errors);
                     return response;
                 }
 
@@ -484,19 +496,20 @@ namespace Main.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Actualización Exitosa!!!";
-                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Actualización Exitosa!!!");
+                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Actualización Exitosa!!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, e.Message);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, e.Message);
             }
             return response;
         }
 
         public async Task<Response<bool>> DeleteAsync(RequestDtoAccessControl_Delete request)
         {
+            Method = MethodBase.GetCurrentMethod()!.Name;
             var response = new Response<bool>();
 
             var validation = _deleteDtoValidator.Validate(new RequestDtoAccessControl_Delete()
@@ -506,7 +519,7 @@ namespace Main.Application.Main
             {
                 response.Message = "Errores de Validación";
                 response.Errors = validation.Errors;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, validation.Errors);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, validation.Errors);
                 return response;
             }
 
@@ -517,7 +530,7 @@ namespace Main.Application.Main
                 {
                     response.Message = exist.Response.Message;
                     response.Errors = exist.Response.Errors;
-                    _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, exist.Response.Errors);
+                    _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, exist.Response.Errors);
                     return response;
                 }
 
@@ -527,19 +540,20 @@ namespace Main.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Eliminación Exitosa!!!";
-                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Eliminación Exitosa!!!");
+                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Eliminación Exitosa!!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, e.Message);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, e.Message);
             }
             return response;
         }
 
         public async Task<Response<ResponseDtoAccessControl>> GetByIdAsync(RequestDtoAccessControl_GetById request)
         {
+            Method = MethodBase.GetCurrentMethod()!.Name;
             var response = new Response<ResponseDtoAccessControl>();
 
             var validation = _getByIdDtoValidator.Validate(new RequestDtoAccessControl_GetById()
@@ -549,7 +563,7 @@ namespace Main.Application.Main
             {
                 response.Message = "Errores de Validación";
                 response.Errors = validation.Errors;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, validation.Errors);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, validation.Errors);
                 return response;
             }
 
@@ -560,7 +574,7 @@ namespace Main.Application.Main
                 {
                     response.Message = exist.Response.Message;
                     response.Errors = exist.Response.Errors;
-                    _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, exist.Response.Errors);
+                    _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, exist.Response.Errors);
                     return response;
                 }
 
@@ -570,19 +584,20 @@ namespace Main.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Consulta Exitosa!!!";
-                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Consulta Exitosa!!!");
+                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Consulta Exitosa!!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, e.Message);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, e.Message);
             }
             return response;
         }
 
         public async Task<Response<IEnumerable<ResponseDtoAccessControl>>> GetByResourceAsync(RequestDtoAccessControl_GetByResource request)
         {
+
             var response = new Response<IEnumerable<ResponseDtoAccessControl>>();
 
             var validation = _getByResourceDtoValidator.Validate(new RequestDtoAccessControl_GetByResource()
@@ -592,7 +607,7 @@ namespace Main.Application.Main
             {
                 response.Message = "Errores de Validación";
                 response.Errors = validation.Errors;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, validation.Errors);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, validation.Errors);
                 return response;
             }
 
@@ -603,7 +618,7 @@ namespace Main.Application.Main
                 {
                     response.Message = exist.Response.Message;
                     response.Errors = exist.Response.Errors;
-                    _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, exist.Response.Errors);
+                    _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, exist.Response.Errors);
                     return response;
                 }
 
@@ -613,19 +628,20 @@ namespace Main.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Consulta Exitosa!!!";
-                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Consulta Exitosa!!!");
+                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Consulta Exitosa!!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, e.Message);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, e.Message);
             }
             return response;
         }
 
         public async Task<Response<IEnumerable<ResponseDtoAccessControl>>> GetByProgramAsync(RequestDtoAccessControl_GetByProgram request)
         {
+            Method = MethodBase.GetCurrentMethod()!.Name;
             var response = new Response<IEnumerable<ResponseDtoAccessControl>>();
 
             var validation = _getByProgramDtoValidator.Validate(new RequestDtoAccessControl_GetByProgram()
@@ -635,7 +651,7 @@ namespace Main.Application.Main
             {
                 response.Message = "Errores de Validación";
                 response.Errors = validation.Errors;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, validation.Errors);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, validation.Errors);
                 return response;
             }
 
@@ -646,7 +662,7 @@ namespace Main.Application.Main
                 {
                     response.Message = exist.Response.Message;
                     response.Errors = exist.Response.Errors;
-                    _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, exist.Response.Errors);
+                    _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, exist.Response.Errors);
                     return response;
                 }
 
@@ -656,19 +672,20 @@ namespace Main.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Consulta Exitosa!!!";
-                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Consulta Exitosa!!!");
+                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Consulta Exitosa!!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, e.Message);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, e.Message);
             }
             return response;
         }
 
         public async Task<Response<IEnumerable<ResponseDtoAccessControl>>> ListAsync()
         {
+            Method = MethodBase.GetCurrentMethod()!.Name;
             var response = new Response<IEnumerable<ResponseDtoAccessControl>>();
             try
             {
@@ -678,19 +695,20 @@ namespace Main.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Consulta Exitosa!!!";
-                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Consulta Exitosa!!!");
+                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Consulta Exitosa!!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, e.Message);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, e.Message);
             }
             return response;
         }
 
         public async Task<Response<IEnumerable<ResponseDtoAccessControl>>> ListWithPaginationAsync(RequestDtoAccessControl_ListWithPagination request)
         {
+            Method = MethodBase.GetCurrentMethod()!.Name;
             var response = new Response<IEnumerable<ResponseDtoAccessControl>>();
 
             var validation = _withPaginatioDtoValidator.Validate(new RequestDtoAccessControl_ListWithPagination()
@@ -703,7 +721,7 @@ namespace Main.Application.Main
             {
                 response.Message = "Errores de Validación";
                 response.Errors = validation.Errors;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, validation.Errors);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, validation.Errors);
                 return response;
             }
 
@@ -716,13 +734,13 @@ namespace Main.Application.Main
                 {
                     response.IsSuccess = true;
                     response.Message = "Consulta Exitosa!!!";
-                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Consulta Exitosa!!!");
+                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, "Consulta Exitosa!!!");
                 }
             }
             catch (Exception e)
             {
                 response.Message = e.Message;
-                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, e.Message);
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, Method, e.Message);
             }
             return response;
         }

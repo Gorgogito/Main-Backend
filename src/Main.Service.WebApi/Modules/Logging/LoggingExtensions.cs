@@ -5,12 +5,17 @@ namespace Main.Service.WebApi.Modules.Logging
     public static class LoggingExtensions
     {
 
-        public static IServiceCollection AddLogger(this IServiceCollection services)
+        //private static readonly IConfiguration Configuration;
+
+        public static IServiceCollection AddLogger(this IServiceCollection services, IConfiguration configuration)
         {
             Solutions.Utility.AppLogger.ILogger logging = new Logger();
 
-            logging.AddPath($"C:\\Logs");
-            logging.AddFile($"LOG_Main.Service.Api_" + DateTime.Now.ToString("yyyyMMdd") + ".log");
+            var path = configuration["Logger:Path"];
+            var file = configuration["Logger:File"];
+
+            logging.AddPath(path!);
+            logging.AddFile(file! + DateTime.Now.ToString("yyyyMMdd") + ".log");
             services.AddSingleton(logging);
             return services;
         }

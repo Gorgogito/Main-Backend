@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {}
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {}
   },
   "projects": {
-    "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
+    "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj",
+        "projectUniqueName": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj",
         "projectName": "Main.Application.DTO",
-        "projectPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\Main.Application.DTO.csproj",
+        "projectPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Main.Application.DTO.csproj",
         "packagesPath": "C:\\Users\\ta_jo\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Main\\Backend\\Main.WebApi\\src\\Main.Application.DTO\\obj\\",
+        "outputPath": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

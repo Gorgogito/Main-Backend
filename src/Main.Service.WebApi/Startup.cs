@@ -28,7 +28,7 @@ namespace Main.Service.WebApi
             services.AddAuthentication(this.Configuration);
             services.AddSwagger();
             services.AddValidator();
-            services.AddLogger();
+            services.AddLogger(this.Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
