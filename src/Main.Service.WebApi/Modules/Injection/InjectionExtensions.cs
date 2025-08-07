@@ -49,6 +49,14 @@ namespace Main.Service.WebApi.Modules.Injection
             services.AddScoped<IProgramDomain, ProgramDomain>();
             services.AddScoped<IProgramRepository, ProgramRepository>();
 
+            services.AddScoped<IResourceApplication, ResourceApplication>();
+            services.AddScoped<IResourceDomain, ResourceDomain>();
+            services.AddScoped<IResourceRepository, ResourceRepository>();
+
+            services.AddScoped<IRoleApplication, RoleApplication>();
+            services.AddScoped<IRoleDomain, RoleDomain>();
+            services.AddScoped<IRoleRepository, RoleRepository>();
+
             //services.AddScoped(typeof(IAppLogger), typeof(LoggerAdapter));
 
             return services;

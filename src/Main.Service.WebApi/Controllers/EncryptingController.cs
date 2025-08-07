@@ -1,5 +1,4 @@
 ﻿using Main.Application.Interface;
-using Main.Cross.Common;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Reflection;

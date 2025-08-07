@@ -52,6 +52,18 @@ namespace Main.Service.WebApi.Modules.Validator
             services.AddTransient<ProgramDto_GetByMenu_Validator>();
             services.AddTransient<ProgramDto_ListWithPagination_Validator>();
 
+            services.AddTransient<ResourceDto_Insert_Validator>();
+            services.AddTransient<ResourceDto_Update_Validator>();
+            services.AddTransient<ResourceDto_Delete_Validator>();
+            services.AddTransient<ResourceDto_GetById_Validator>();
+            services.AddTransient<ResourceDto_ListWithPagination_Validator>();
+
+            services.AddTransient<RoleDto_Insert_Validator>();
+            services.AddTransient<RoleDto_Update_Validator>();
+            services.AddTransient<RoleDto_Delete_Validator>();
+            services.AddTransient<RoleDto_GetById_Validator>();
+            services.AddTransient<RoleDto_ListWithPagination_Validator>();
+
             return services;
         }
 

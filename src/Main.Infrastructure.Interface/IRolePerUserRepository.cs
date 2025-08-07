@@ -18,18 +18,5 @@ namespace Main.Infrastructure.Interface
 
         #endregion
 
-        #region Métodos Asíncronos
-
-        Task<bool> InsertAsync(RolePerUser entity);
-        Task<bool> UpdateAsync(RolePerUser entity);
-        Task<bool> DeleteAsync(string userName, string codeRole);
-        Task<RolePerUser> GetByIdAsync(string userName, string codeRole);
-        Task<IEnumerable<RolePerUser>> GetByUserAsync(string userName);
-        Task<IEnumerable<RolePerUser>> GetByRoleAsync(string codeRole);
-        Task<IEnumerable<RolePerUser>> ListAsync();
-        Task<IEnumerable<RolePerUser>> ListWithPaginationAsync(int pageNumber, int pageSize);
-
-        #endregion
-
     }
 }
