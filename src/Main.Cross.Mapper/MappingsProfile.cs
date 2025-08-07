@@ -46,6 +46,9 @@ namespace Main.Cross.Mapper
             CreateMap<Role, RequestDtoRole_Insert>().ReverseMap();
             CreateMap<Role, RequestDtoRole_Update>().ReverseMap();
 
+            CreateMap<RolePerUser, ResponseDtoRolePerUser>().ReverseMap();
+            CreateMap<RolePerUser, RequestDtoRolePerUser_Insert>().ReverseMap();
+
             //CreateMap<Customers, CustomersDto>().ReverseMap()
             //    .ForMember(destination => destination.CustomerId, source => source.MapFrom(src => src.CustomerId))
             //    .ForMember(destination => destination.CompanyName, source => source.MapFrom(src => src.CompanyName))

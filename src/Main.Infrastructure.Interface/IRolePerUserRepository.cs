@@ -8,13 +8,12 @@ namespace Main.Infrastructure.Interface
         #region Métodos Síncronos
 
         bool Insert(RolePerUser entity);
-        bool Update(RolePerUser entity);
         bool Delete(string userName, string codeRole);
-        RolePerUser GetById(string userName, string codeRole);
-        IEnumerable<RolePerUser> GetByUser(string userName);
-        IEnumerable<RolePerUser> GetByRole(string codeRole);
-        IEnumerable<RolePerUser> List();
-        IEnumerable<RolePerUser> ListWithPagination(int pageNumber, int pageSize);
+        RolePerUser? GetById(string userName, string codeRole);
+        IEnumerable<RolePerUser>? GetByUser(string userName);
+        IEnumerable<RolePerUser>? GetByRole(string codeRole);
+        IEnumerable<RolePerUser>? List();
+        IEnumerable<RolePerUser>? ListWithPagination(int pageNumber, int pageSize);
 
         #endregion
 

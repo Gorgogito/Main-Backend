@@ -64,6 +64,13 @@ namespace Main.Service.WebApi.Modules.Validator
             services.AddTransient<RoleDto_GetById_Validator>();
             services.AddTransient<RoleDto_ListWithPagination_Validator>();
 
+            services.AddTransient<RolePerUserDto_Insert_Validator>();            
+            services.AddTransient<RolePerUserDto_Delete_Validator>();
+            services.AddTransient<RolePerUserDto_GetById_Validator>();
+            services.AddTransient<RolePerUserDto_GetByUser_Validator>();
+            services.AddTransient<RolePerUserDto_GetByRole_Validator>();
+            services.AddTransient<RolePerUserDto_ListWithPagination_Validator>();
+
             return services;
         }
 

@@ -878,5 +878,111 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.RolePerUserController",
+    "Method": "RolePerUserDelete",
+    "RelativePath": "api/resource/RolePerUser/RolePerUserDelete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoRolePerUser_Delete",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.RolePerUserController",
+    "Method": "RolePerUserGetById",
+    "RelativePath": "api/resource/RolePerUser/RolePerUserGetById",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoRolePerUser_GetById",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.RolePerUserController",
+    "Method": "RolePerUserGetByRole",
+    "RelativePath": "api/resource/RolePerUser/RolePerUserGetByRole",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoRolePerUser_GetByRole",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.RolePerUserController",
+    "Method": "RolePerUserGetByUser",
+    "RelativePath": "api/resource/RolePerUser/RolePerUserGetByUser",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoRolePerUser_GetByUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.RolePerUserController",
+    "Method": "RolePerUserList",
+    "RelativePath": "api/resource/RolePerUser/RolePerUserList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.RolePerUserController",
+    "Method": "RolePerUserListWithPagination",
+    "RelativePath": "api/resource/RolePerUser/RolePerUserListWithPagination",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoRolePerUser_ListWithPagination",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Main.Service.WebApi.Controllers.RolePerUserController",
+    "Method": "RolePerUserRegister",
+    "RelativePath": "api/resource/RolePerUser/RolePerUserRegister",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoRolePerUser_Insert",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

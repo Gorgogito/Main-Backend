@@ -3,48 +3,48 @@
   "WorkspaceRootPath": "D:\\Project\\Main\\Main-Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|d:\\project\\main\\main-backend\\src\\main.service.webapi\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|solutionrelative:src\\main.service.webapi\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9555ECB-A141-45EB-95D8-A49D942F7E7F}|src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj|d:\\project\\main\\main-backend\\src\\main.infrastructure.repository\\roleperuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9555ECB-A141-45EB-95D8-A49D942F7E7F}|src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj|solutionrelative:src\\main.infrastructure.repository\\roleperuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB75AF01-AA5C-4C85-9EC2-3E15D2312CEB}|src\\Main.Application.Main\\Main.Application.Main.csproj|d:\\project\\main\\main-backend\\src\\main.application.main\\roleapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB75AF01-AA5C-4C85-9EC2-3E15D2312CEB}|src\\Main.Application.Main\\Main.Application.Main.csproj|solutionrelative:src\\main.application.main\\roleapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B11257A-8A1B-41AB-BE1E-478769A774EB}|src\\Main.Domain.Core\\Main.Domain.Core.csproj|d:\\project\\main\\main-backend\\src\\main.domain.core\\roleperuserdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B11257A-8A1B-41AB-BE1E-478769A774EB}|src\\Main.Domain.Core\\Main.Domain.Core.csproj|solutionrelative:src\\main.domain.core\\roleperuserdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F848B3A8-E60C-4022-9421-D535CF76B717}|src\\Main.Application.Interface\\Main.Application.Interface.csproj|d:\\project\\main\\main-backend\\src\\main.application.interface\\iroleapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F848B3A8-E60C-4022-9421-D535CF76B717}|src\\Main.Application.Interface\\Main.Application.Interface.csproj|solutionrelative:src\\main.application.interface\\iroleapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7DA846B1-20DF-4B67-9A8F-26F293369157}|src\\Main.Application.Validator\\Main.Application.Validator.csproj|d:\\project\\main\\main-backend\\src\\main.application.validator\\roleperuserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA846B1-20DF-4B67-9A8F-26F293369157}|src\\Main.Application.Validator\\Main.Application.Validator.csproj|solutionrelative:src\\main.application.validator\\roleperuserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DA846B1-20DF-4B67-9A8F-26F293369157}|src\\Main.Application.Validator\\Main.Application.Validator.csproj|d:\\project\\main\\main-backend\\src\\main.application.validator\\roledtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DA846B1-20DF-4B67-9A8F-26F293369157}|src\\Main.Application.Validator\\Main.Application.Validator.csproj|solutionrelative:src\\main.application.validator\\roledtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|d:\\project\\main\\main-backend\\src\\main.service.webapi\\controllers\\roleperusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|solutionrelative:src\\main.service.webapi\\controllers\\roleperusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFB4C893-9FC1-4433-98A3-368706244D31}|src\\Main.Application.DTO\\Main.Application.DTO.csproj|d:\\project\\main\\main-backend\\src\\main.application.dto\\request\\requestdtorole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFB4C893-9FC1-4433-98A3-368706244D31}|src\\Main.Application.DTO\\Main.Application.DTO.csproj|solutionrelative:src\\main.application.dto\\request\\requestdtorole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF5C8FEC-6A29-4ABC-917D-1CE80CA772B3}|src\\Main.Domain.Interface\\Main.Domain.Interface.csproj|d:\\project\\main\\main-backend\\src\\main.domain.interface\\iroleperuserdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF5C8FEC-6A29-4ABC-917D-1CE80CA772B3}|src\\Main.Domain.Interface\\Main.Domain.Interface.csproj|solutionrelative:src\\main.domain.interface\\iroleperuserdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFB4C893-9FC1-4433-98A3-368706244D31}|src\\Main.Application.DTO\\Main.Application.DTO.csproj|d:\\project\\main\\main-backend\\src\\main.application.dto\\response\\responsedtorole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFB4C893-9FC1-4433-98A3-368706244D31}|src\\Main.Application.DTO\\Main.Application.DTO.csproj|solutionrelative:src\\main.application.dto\\response\\responsedtorole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0325E98-39AC-40AD-A976-5DC9F37CD333}|src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj|d:\\project\\main\\main-backend\\src\\main.infrastructure.interface\\iroleperuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0325E98-39AC-40AD-A976-5DC9F37CD333}|src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj|solutionrelative:src\\main.infrastructure.interface\\iroleperuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9555ECB-A141-45EB-95D8-A49D942F7E7F}|src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj|d:\\project\\main\\main-backend\\src\\main.infrastructure.repository\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9555ECB-A141-45EB-95D8-A49D942F7E7F}|src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj|solutionrelative:src\\main.infrastructure.repository\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFB4C893-9FC1-4433-98A3-368706244D31}|src\\Main.Application.DTO\\Main.Application.DTO.csproj|d:\\project\\main\\main-backend\\src\\main.application.dto\\request\\requestdtoroleperuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB4C893-9FC1-4433-98A3-368706244D31}|src\\Main.Application.DTO\\Main.Application.DTO.csproj|solutionrelative:src\\main.application.dto\\request\\requestdtoroleperuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0325E98-39AC-40AD-A976-5DC9F37CD333}|src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj|d:\\project\\main\\main-backend\\src\\main.infrastructure.interface\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0325E98-39AC-40AD-A976-5DC9F37CD333}|src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj|solutionrelative:src\\main.infrastructure.interface\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFB4C893-9FC1-4433-98A3-368706244D31}|src\\Main.Application.DTO\\Main.Application.DTO.csproj|d:\\project\\main\\main-backend\\src\\main.application.dto\\response\\responsedtoroleperuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFB4C893-9FC1-4433-98A3-368706244D31}|src\\Main.Application.DTO\\Main.Application.DTO.csproj|solutionrelative:src\\main.application.dto\\response\\responsedtoroleperuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B11257A-8A1B-41AB-BE1E-478769A774EB}|src\\Main.Domain.Core\\Main.Domain.Core.csproj|d:\\project\\main\\main-backend\\src\\main.domain.core\\roledomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B11257A-8A1B-41AB-BE1E-478769A774EB}|src\\Main.Domain.Core\\Main.Domain.Core.csproj|solutionrelative:src\\main.domain.core\\roledomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F848B3A8-E60C-4022-9421-D535CF76B717}|src\\Main.Application.Interface\\Main.Application.Interface.csproj|d:\\project\\main\\main-backend\\src\\main.application.interface\\iroleperuserapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F848B3A8-E60C-4022-9421-D535CF76B717}|src\\Main.Application.Interface\\Main.Application.Interface.csproj|solutionrelative:src\\main.application.interface\\iroleperuserapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF5C8FEC-6A29-4ABC-917D-1CE80CA772B3}|src\\Main.Domain.Interface\\Main.Domain.Interface.csproj|d:\\project\\main\\main-backend\\src\\main.domain.interface\\iroledomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF5C8FEC-6A29-4ABC-917D-1CE80CA772B3}|src\\Main.Domain.Interface\\Main.Domain.Interface.csproj|solutionrelative:src\\main.domain.interface\\iroledomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB75AF01-AA5C-4C85-9EC2-3E15D2312CEB}|src\\Main.Application.Main\\Main.Application.Main.csproj|d:\\project\\main\\main-backend\\src\\main.application.main\\roleperuserapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB75AF01-AA5C-4C85-9EC2-3E15D2312CEB}|src\\Main.Application.Main\\Main.Application.Main.csproj|solutionrelative:src\\main.application.main\\roleperuserapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2EC3112-0784-4F22-92DA-3BF16CB8F2F3}|src\\Main.Domain.Entity\\Main.Domain.Entity.csproj|d:\\project\\main\\main-backend\\src\\main.domain.entity\\identy\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2EC3112-0784-4F22-92DA-3BF16CB8F2F3}|src\\Main.Domain.Entity\\Main.Domain.Entity.csproj|solutionrelative:src\\main.domain.entity\\identy\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2EC3112-0784-4F22-92DA-3BF16CB8F2F3}|src\\Main.Domain.Entity\\Main.Domain.Entity.csproj|d:\\project\\main\\main-backend\\src\\main.domain.entity\\identy\\roleperuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2EC3112-0784-4F22-92DA-3BF16CB8F2F3}|src\\Main.Domain.Entity\\Main.Domain.Entity.csproj|solutionrelative:src\\main.domain.entity\\identy\\roleperuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,145 +62,145 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RoleController.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Controllers\\RoleController.cs",
-              "RelativeDocumentMoniker": "src\\Main.Service.WebApi\\Controllers\\RoleController.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Controllers\\RoleController.cs",
-              "RelativeToolTip": "src\\Main.Service.WebApi\\Controllers\\RoleController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T15:22:09.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RoleApplication.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\RoleApplication.cs",
-              "RelativeDocumentMoniker": "src\\Main.Application.Main\\RoleApplication.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\RoleApplication.cs",
-              "RelativeToolTip": "src\\Main.Application.Main\\RoleApplication.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T14:56:41.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRoleApplication.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\IRoleApplication.cs",
-              "RelativeDocumentMoniker": "src\\Main.Application.Interface\\IRoleApplication.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\IRoleApplication.cs",
-              "RelativeToolTip": "src\\Main.Application.Interface\\IRoleApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T14:53:29.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RoleDtoValidator.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\RoleDtoValidator.cs",
-              "RelativeDocumentMoniker": "src\\Main.Application.Validator\\RoleDtoValidator.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\RoleDtoValidator.cs",
-              "RelativeToolTip": "src\\Main.Application.Validator\\RoleDtoValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Title": "RolePerUserController.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Controllers\\RolePerUserController.cs",
+              "RelativeDocumentMoniker": "src\\Main.Service.WebApi\\Controllers\\RolePerUserController.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Controllers\\RolePerUserController.cs",
+              "RelativeToolTip": "src\\Main.Service.WebApi\\Controllers\\RolePerUserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T14:13:42.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ResponseDtoRole.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Response\\ResponseDtoRole.cs",
-              "RelativeDocumentMoniker": "src\\Main.Application.DTO\\Response\\ResponseDtoRole.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Response\\ResponseDtoRole.cs",
-              "RelativeToolTip": "src\\Main.Application.DTO\\Response\\ResponseDtoRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T14:12:36.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RequestDtoRole.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Request\\RequestDtoRole.cs",
-              "RelativeDocumentMoniker": "src\\Main.Application.DTO\\Request\\RequestDtoRole.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Request\\RequestDtoRole.cs",
-              "RelativeToolTip": "src\\Main.Application.DTO\\Request\\RequestDtoRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T14:11:09.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RoleRepository.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Repository\\RoleRepository.cs",
-              "RelativeDocumentMoniker": "src\\Main.Infrastructure.Repository\\RoleRepository.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Repository\\RoleRepository.cs",
-              "RelativeToolTip": "src\\Main.Infrastructure.Repository\\RoleRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T13:41:52.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IRoleRepository.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\IRoleRepository.cs",
-              "RelativeDocumentMoniker": "src\\Main.Infrastructure.Interface\\IRoleRepository.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\IRoleRepository.cs",
-              "RelativeToolTip": "src\\Main.Infrastructure.Interface\\IRoleRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T13:41:24.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RoleDomain.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\RoleDomain.cs",
-              "RelativeDocumentMoniker": "src\\Main.Domain.Core\\RoleDomain.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\RoleDomain.cs",
-              "RelativeToolTip": "src\\Main.Domain.Core\\RoleDomain.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T13:55:56.912Z",
+              "WhenOpened": "2025-08-07T17:07:05.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "IRoleDomain.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\IRoleDomain.cs",
-              "RelativeDocumentMoniker": "src\\Main.Domain.Interface\\IRoleDomain.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\IRoleDomain.cs",
-              "RelativeToolTip": "src\\Main.Domain.Interface\\IRoleDomain.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Title": "RolePerUserApplication.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\RolePerUserApplication.cs",
+              "RelativeDocumentMoniker": "src\\Main.Application.Main\\RolePerUserApplication.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\RolePerUserApplication.cs",
+              "RelativeToolTip": "src\\Main.Application.Main\\RolePerUserApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T13:39:33.819Z",
+              "WhenOpened": "2025-08-07T16:39:02.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRolePerUserApplication.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\IRolePerUserApplication.cs",
+              "RelativeDocumentMoniker": "src\\Main.Application.Interface\\IRolePerUserApplication.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\IRolePerUserApplication.cs",
+              "RelativeToolTip": "src\\Main.Application.Interface\\IRolePerUserApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T16:36:15.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RolePerUserDtoValidator.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\RolePerUserDtoValidator.cs",
+              "RelativeDocumentMoniker": "src\\Main.Application.Validator\\RolePerUserDtoValidator.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\RolePerUserDtoValidator.cs",
+              "RelativeToolTip": "src\\Main.Application.Validator\\RolePerUserDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T16:28:58.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ResponseDtoRolePerUser.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Response\\ResponseDtoRolePerUser.cs",
+              "RelativeDocumentMoniker": "src\\Main.Application.DTO\\Response\\ResponseDtoRolePerUser.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Response\\ResponseDtoRolePerUser.cs",
+              "RelativeToolTip": "src\\Main.Application.DTO\\Response\\ResponseDtoRolePerUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T16:27:47.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RequestDtoRolePerUser.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Request\\RequestDtoRolePerUser.cs",
+              "RelativeDocumentMoniker": "src\\Main.Application.DTO\\Request\\RequestDtoRolePerUser.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Request\\RequestDtoRolePerUser.cs",
+              "RelativeToolTip": "src\\Main.Application.DTO\\Request\\RequestDtoRolePerUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T16:25:55.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RolePerUserRepository.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Repository\\RolePerUserRepository.cs",
+              "RelativeDocumentMoniker": "src\\Main.Infrastructure.Repository\\RolePerUserRepository.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Repository\\RolePerUserRepository.cs",
+              "RelativeToolTip": "src\\Main.Infrastructure.Repository\\RolePerUserRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwIAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T15:50:50.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRolePerUserRepository.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\IRolePerUserRepository.cs",
+              "RelativeDocumentMoniker": "src\\Main.Infrastructure.Interface\\IRolePerUserRepository.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\IRolePerUserRepository.cs",
+              "RelativeToolTip": "src\\Main.Infrastructure.Interface\\IRolePerUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T15:50:16.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RolePerUserDomain.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\RolePerUserDomain.cs",
+              "RelativeDocumentMoniker": "src\\Main.Domain.Core\\RolePerUserDomain.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\RolePerUserDomain.cs",
+              "RelativeToolTip": "src\\Main.Domain.Core\\RolePerUserDomain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T16:09:08.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRolePerUserDomain.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\IRolePerUserDomain.cs",
+              "RelativeDocumentMoniker": "src\\Main.Domain.Interface\\IRolePerUserDomain.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\IRolePerUserDomain.cs",
+              "RelativeToolTip": "src\\Main.Domain.Interface\\IRolePerUserDomain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T15:44:41.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Role.cs",
-              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Identy\\Role.cs",
-              "RelativeDocumentMoniker": "src\\Main.Domain.Entity\\Identy\\Role.cs",
-              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Identy\\Role.cs",
-              "RelativeToolTip": "src\\Main.Domain.Entity\\Identy\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "RolePerUser.cs",
+              "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Identy\\RolePerUser.cs",
+              "RelativeDocumentMoniker": "src\\Main.Domain.Entity\\Identy\\RolePerUser.cs",
+              "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Entity\\Identy\\RolePerUser.cs",
+              "RelativeToolTip": "src\\Main.Domain.Entity\\Identy\\RolePerUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T13:39:22.149Z",
+              "WhenOpened": "2025-08-07T15:37:07.248Z",
               "EditorCaption": ""
             }
           ]

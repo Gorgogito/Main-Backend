@@ -57,6 +57,10 @@ namespace Main.Service.WebApi.Modules.Injection
             services.AddScoped<IRoleDomain, RoleDomain>();
             services.AddScoped<IRoleRepository, RoleRepository>();
 
+            services.AddScoped<IRolePerUserApplication, RolePerUserApplication>();
+            services.AddScoped<IRolePerUserDomain, RolePerUserDomain>();
+            services.AddScoped<IRolePerUserRepository, RolePerUserRepository>();
+
             //services.AddScoped(typeof(IAppLogger), typeof(LoggerAdapter));
 
             return services;
