@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Project\\Main\\Main-Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|d:\\project\\main\\main-backend\\src\\main.service.webapi\\controllers\\roleperusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|solutionrelative:src\\main.service.webapi\\controllers\\roleperusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E9555ECB-A141-45EB-95D8-A49D942F7E7F}|src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj|d:\\project\\main\\main-backend\\src\\main.infrastructure.repository\\roleperuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9555ECB-A141-45EB-95D8-A49D942F7E7F}|src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj|solutionrelative:src\\main.infrastructure.repository\\roleperuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7DA846B1-20DF-4B67-9A8F-26F293369157}|src\\Main.Application.Validator\\Main.Application.Validator.csproj|d:\\project\\main\\main-backend\\src\\main.application.validator\\roleperuserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DA846B1-20DF-4B67-9A8F-26F293369157}|src\\Main.Application.Validator\\Main.Application.Validator.csproj|solutionrelative:src\\main.application.validator\\roleperuserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|d:\\project\\main\\main-backend\\src\\main.service.webapi\\controllers\\roleperusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|solutionrelative:src\\main.service.webapi\\controllers\\roleperusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF5C8FEC-6A29-4ABC-917D-1CE80CA772B3}|src\\Main.Domain.Interface\\Main.Domain.Interface.csproj|d:\\project\\main\\main-backend\\src\\main.domain.interface\\iroleperuserdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,13 +62,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "RolePerUserController.cs",
               "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Controllers\\RolePerUserController.cs",
               "RelativeDocumentMoniker": "src\\Main.Service.WebApi\\Controllers\\RolePerUserController.cs",
               "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Controllers\\RolePerUserController.cs",
               "RelativeToolTip": "src\\Main.Service.WebApi\\Controllers\\RolePerUserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-07T17:07:05.241Z",
               "EditorCaption": ""
@@ -101,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RolePerUserDtoValidator.cs",
               "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\RolePerUserDtoValidator.cs",
               "RelativeDocumentMoniker": "src\\Main.Application.Validator\\RolePerUserDtoValidator.cs",
@@ -140,13 +140,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RolePerUserRepository.cs",
               "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Repository\\RolePerUserRepository.cs",
               "RelativeDocumentMoniker": "src\\Main.Infrastructure.Repository\\RolePerUserRepository.cs",
               "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Repository\\RolePerUserRepository.cs",
               "RelativeToolTip": "src\\Main.Infrastructure.Repository\\RolePerUserRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwIAAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-07T15:50:50.686Z",
               "EditorCaption": ""
@@ -166,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "RolePerUserDomain.cs",
               "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\RolePerUserDomain.cs",
               "RelativeDocumentMoniker": "src\\Main.Domain.Core\\RolePerUserDomain.cs",

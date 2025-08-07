@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
-    <DocumentationFile>D:\Project\Main\Backend\Main.WebApi\src\Main.Service.WebApi\Main.Service.WebApi.xml</DocumentationFile>
+    <DocumentationFile>D:\Project\Main\Main-Backend\src\Main.Service.WebApi\Main.Service.WebApi.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
