@@ -24,6 +24,7 @@ namespace Main.Application.Main
         private readonly UserDto_Delete_Validator _deleteDtoValidator;
         private readonly UserDto_GetById_Validator _getByIdDtoValidator;
         private readonly UserDto_ListWithPagination_Validator _withPaginatioDtoValidator;
+        private readonly UserDto_ResetPassword_Validator _resetPasswordDtoValidator;
 
         #endregion
 
@@ -38,7 +39,8 @@ namespace Main.Application.Main
          UserDto_Update_Validator updateDtoValidator,
          UserDto_Delete_Validator deleteDtoValidator,
          UserDto_GetById_Validator getByIdDtoValidator,
-         UserDto_ListWithPagination_Validator withPaginatioDtoValidator
+         UserDto_ListWithPagination_Validator withPaginatioDtoValidator,
+         UserDto_ResetPassword_Validator resetPasswordDtoValidator
         )
         {
             _entDomain = entDomain;
@@ -49,6 +51,7 @@ namespace Main.Application.Main
             _deleteDtoValidator = deleteDtoValidator;
             _getByIdDtoValidator = getByIdDtoValidator;
             _withPaginatioDtoValidator = withPaginatioDtoValidator;
+            _resetPasswordDtoValidator = resetPasswordDtoValidator;
         }
 
         #endregion
@@ -291,6 +294,56 @@ namespace Main.Application.Main
                     response.IsSuccess = true;
                     response.Message = "Consulta Exitosa!!!";
                     _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Consulta Exitosa!!!");
+                }
+            }
+            catch (Exception e)
+            {
+                response.Message = e.Message;
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, e.Message);
+            }
+            return response;
+        }
+
+        public Response<bool> ResetPassword(RequestDtoUser_ResetPassword request)
+        {
+            var response = new Response<bool>();
+
+            var validation = _resetPasswordDtoValidator.Validate(new RequestDtoUser_ResetPassword()
+            {
+                UserName = request.UserName,
+                Password = request.Password,
+                LastModifiedDate = request.LastModifiedDate,
+                LastModifiedBy = request.LastModifiedBy
+            }
+            );
+
+            if (!validation.IsValid)
+            {
+                response.Message = "Errores de Validación";
+                response.Errors = validation.Errors;
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, validation.Errors);
+                return response;
+            }
+
+            try
+            {
+
+                var exist = new NotRecords<User>(_entDomain.GetById(request.UserName));
+                if (!exist.Success)
+                {
+                    response.Message = exist.Response.Message;
+                    response.Errors = exist.Response.Errors;
+                    _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, exist.Response.Errors);
+                    return response;
+                }
+
+                var customer = _mapper.Map<User>(request);
+                response.Data = _entDomain.Update(customer);
+                if (response.Data)
+                {
+                    response.IsSuccess = true;
+                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod().Name, "Actualización Exitosa!!!");
+                    response.Message = "Actualización Exitosa!!!";
                 }
             }
             catch (Exception e)

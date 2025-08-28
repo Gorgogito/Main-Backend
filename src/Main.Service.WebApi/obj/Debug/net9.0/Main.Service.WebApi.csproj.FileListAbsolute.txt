@@ -109,10 +109,10 @@ D:\Project\Main\Main-Backend\src\Main.Service.WebApi\obj\Debug\net9.0\staticweba
 D:\Project\Main\Main-Backend\src\Main.Service.WebApi\obj\Debug\net9.0\staticwebassets.build.json.cache
 D:\Project\Main\Main-Backend\src\Main.Service.WebApi\obj\Debug\net9.0\staticwebassets.development.json
 D:\Project\Main\Main-Backend\src\Main.Service.WebApi\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-D:\Project\Main\Main-Backend\src\Main.Service.WebApi\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 D:\Project\Main\Main-Backend\src\Main.Service.WebApi\obj\Debug\net9.0\Main.Ser.CF383F93.Up2Date
 D:\Project\Main\Main-Backend\src\Main.Service.WebApi\obj\Debug\net9.0\Main.Service.WebApi.dll
 D:\Project\Main\Main-Backend\src\Main.Service.WebApi\obj\Debug\net9.0\refint\Main.Service.WebApi.dll
 D:\Project\Main\Main-Backend\src\Main.Service.WebApi\obj\Debug\net9.0\Main.Service.WebApi.pdb
 D:\Project\Main\Main-Backend\src\Main.Service.WebApi\obj\Debug\net9.0\Main.Service.WebApi.genruntimeconfig.cache
 D:\Project\Main\Main-Backend\src\Main.Service.WebApi\obj\Debug\net9.0\ref\Main.Service.WebApi.dll
+D:\Project\Main\Main-Backend\src\Main.Service.WebApi\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

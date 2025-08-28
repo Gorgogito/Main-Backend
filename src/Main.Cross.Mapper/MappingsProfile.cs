@@ -17,6 +17,7 @@ namespace Main.Cross.Mapper
             CreateMap<User, ResponseDtoUser>().ReverseMap();
             CreateMap<User, RequestDtoUser_Insert>().ReverseMap();
             CreateMap<User, RequestDtoUser_Update>().ReverseMap();
+            CreateMap<User, RequestDtoUser_ResetPassword>().ReverseMap();
 
             CreateMap<AccessControl, ResponseDtoAccessControl>().ReverseMap();
             CreateMap<AccessControl, RequestDtoAccessControl_Insert>().ReverseMap();

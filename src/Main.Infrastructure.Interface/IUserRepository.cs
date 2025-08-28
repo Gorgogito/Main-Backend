@@ -13,6 +13,7 @@ namespace Main.Infrastructure.Interface
         User GetById(string userName);
         IEnumerable<User> List();
         IEnumerable<User> ListWithPagination(int pageNumber, int pageSize);
+        bool ResetPassword(User entity);
 
         #endregion
 

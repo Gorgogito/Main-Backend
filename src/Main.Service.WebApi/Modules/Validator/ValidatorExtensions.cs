@@ -14,6 +14,7 @@ namespace Main.Service.WebApi.Modules.Validator
             services.AddTransient<UserDto_Delete_Validator>();
             services.AddTransient<UserDto_GetById_Validator>();
             services.AddTransient<UserDto_ListWithPagination_Validator>();
+            services.AddTransient<UserDto_ResetPassword_Validator>();
 
             services.AddTransient<AccessControlDto_Insert_Validator>();
             services.AddTransient<AccessControlDto_Update_Validator>();

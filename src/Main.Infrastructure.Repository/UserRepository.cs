@@ -171,6 +171,31 @@ namespace Main.Infrastructure.Repository
             }
         }
 
+        public bool ResetPassword(User entity)
+        {
+            try
+            {
+                using (var connection = _connectionFactory.GetConnection)
+                {
+                    var query = "[dbo].[UserResetPassword]";
+                    var parameters = new DynamicParameters();
+                    parameters.Add("UserName", entity.UserName);
+                    parameters.Add("Password", entity.Password);
+                    parameters.Add("LastModifiedDate", entity.LastModifiedDate);
+                    parameters.Add("LastModifiedBy", entity.LastModifiedBy);
+
+                    var result = connection.Execute(query, param: parameters, commandType: CommandType.StoredProcedure);
+                    _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod()!.Name, "Actualización Exitosa!!!");
+                    return result > 0;
+                }
+            }
+            catch (Exception e)
+            {
+                _logger.ErrorFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod()!.Name, e.Message);
+                return false;
+            }
+        }
+
         #endregion
 
         #region Métodos Asíncronos

@@ -15,6 +15,7 @@ namespace Main.Application.Interface
         Response<ResponseDtoUser> GetById(RequestDtoUser_GetById request);
         Response<IEnumerable<ResponseDtoUser>> List();
         Response<IEnumerable<ResponseDtoUser>> ListWithPagination(RequestDtoUser_ListWithPagination request);
+        Response<bool> ResetPassword(RequestDtoUser_ResetPassword request);
 
         #endregion
 

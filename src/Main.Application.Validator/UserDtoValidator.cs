@@ -74,4 +74,18 @@ namespace Main.Application.Validator
 
     }
 
+    public class UserDto_ResetPassword_Validator : AbstractValidator<RequestDtoUser_ResetPassword>
+    {
+
+        public UserDto_ResetPassword_Validator()
+        {
+
+            RuleFor(u => u.UserName).NotNull().NotEmpty().WithMessage("No ha indicado el UserName.");
+            RuleFor(u => u.Password).NotNull().NotEmpty().WithMessage("No ha indicado el Password.");
+            RuleFor(u => u.LastModifiedDate).NotNull().NotEmpty().WithMessage("No ha indicado la fecha de modificación.");
+            RuleFor(u => u.LastModifiedBy).NotNull().NotEmpty().WithMessage("No ha indicado el usuario que modificó el registro.");
+        }
+
+    }
+
 }

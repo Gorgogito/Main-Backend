@@ -47,4 +47,14 @@
         public int PageSize { get; set; }
     }
 
+    public class RequestDtoUser_ResetPassword
+    {
+
+        public string? UserName { get; set; }
+        public string? Password { get; set; }
+        public DateTime LastModifiedDate { get; set; }
+        public string? LastModifiedBy { get; set; }
+
+    }
+
 }

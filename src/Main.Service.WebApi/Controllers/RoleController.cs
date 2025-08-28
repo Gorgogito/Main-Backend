@@ -8,7 +8,7 @@ namespace Main.Service.WebApi.Controllers
 {
 
     [Authorize]
-    [Route("api/resource/[controller]")]
+    [Route("api/identy/[controller]")]
     [ApiController]
     public class RoleController : Controller
     {

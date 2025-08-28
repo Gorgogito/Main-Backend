@@ -119,6 +119,22 @@ namespace Main.Service.WebApi.Controllers
             return BadRequest(response);
         }
 
+        [HttpPut("UserResetPassword")]
+        public IActionResult UserResetPassword([FromBody] RequestDtoUser_ResetPassword requestDto)
+        {
+            _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod()!.Name, "Accediendo al servicio");
+            if (requestDto == null)
+                return BadRequest();
+            var response = _entityApplication.ResetPassword(requestDto);
+            if (response.IsSuccess)
+            {
+                _logger.InfoFormat("[{0}-{1}] - {2}", this.GetType().Name, MethodBase.GetCurrentMethod()!.Name, "Servicio Exitoso!!!");
+                return Ok(response);
+            }
+
+            return BadRequest(response);
+        }
+
         #endregion
 
         #region "Métodos Asincronos"
