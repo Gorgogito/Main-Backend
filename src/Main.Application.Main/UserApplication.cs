@@ -338,7 +338,7 @@ namespace Main.Application.Main
                 }
 
                 var customer = _mapper.Map<User>(request);
-                response.Data = _entDomain.Update(customer);
+                response.Data = _entDomain.ResetPassword(customer);
                 if (response.Data)
                 {
                     response.IsSuccess = true;

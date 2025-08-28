@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\Project\\Main\\Main-Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|d:\\project\\main\\main-backend\\src\\main.service.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|solutionrelative:src\\main.service.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1B11257A-8A1B-41AB-BE1E-478769A774EB}|src\\Main.Domain.Core\\Main.Domain.Core.csproj|d:\\project\\main\\main-backend\\src\\main.domain.core\\userdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B11257A-8A1B-41AB-BE1E-478769A774EB}|src\\Main.Domain.Core\\Main.Domain.Core.csproj|solutionrelative:src\\main.domain.core\\userdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9555ECB-A141-45EB-95D8-A49D942F7E7F}|src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj|d:\\project\\main\\main-backend\\src\\main.infrastructure.repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9555ECB-A141-45EB-95D8-A49D942F7E7F}|src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj|solutionrelative:src\\main.infrastructure.repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB75AF01-AA5C-4C85-9EC2-3E15D2312CEB}|src\\Main.Application.Main\\Main.Application.Main.csproj|d:\\project\\main\\main-backend\\src\\main.application.main\\userapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB75AF01-AA5C-4C85-9EC2-3E15D2312CEB}|src\\Main.Application.Main\\Main.Application.Main.csproj|solutionrelative:src\\main.application.main\\userapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA846B1-20DF-4B67-9A8F-26F293369157}|src\\Main.Application.Validator\\Main.Application.Validator.csproj|d:\\project\\main\\main-backend\\src\\main.application.validator\\userdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA846B1-20DF-4B67-9A8F-26F293369157}|src\\Main.Application.Validator\\Main.Application.Validator.csproj|solutionrelative:src\\main.application.validator\\userdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF5C8FEC-6A29-4ABC-917D-1CE80CA772B3}|src\\Main.Domain.Interface\\Main.Domain.Interface.csproj|d:\\project\\main\\main-backend\\src\\main.domain.interface\\iuserdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF5C8FEC-6A29-4ABC-917D-1CE80CA772B3}|src\\Main.Domain.Interface\\Main.Domain.Interface.csproj|solutionrelative:src\\main.domain.interface\\iuserdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9555ECB-A141-45EB-95D8-A49D942F7E7F}|src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj|d:\\project\\main\\main-backend\\src\\main.infrastructure.repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9555ECB-A141-45EB-95D8-A49D942F7E7F}|src\\Main.Infrastructure.Repository\\Main.Infrastructure.Repository.csproj|solutionrelative:src\\main.infrastructure.repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|d:\\project\\main\\main-backend\\src\\main.service.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40C4372C-7DA3-47AC-8A8F-3BA4952E0B3D}|src\\Main.Service.WebApi\\Main.Service.WebApi.csproj|solutionrelative:src\\main.service.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0325E98-39AC-40AD-A976-5DC9F37CD333}|src\\Main.Infrastructure.Interface\\Main.Infrastructure.Interface.csproj|d:\\project\\main\\main-backend\\src\\main.infrastructure.interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,16 +35,8 @@
       "RelativeMoniker": "D:0:0:{AFB4C893-9FC1-4433-98A3-368706244D31}|src\\Main.Application.DTO\\Main.Application.DTO.csproj|solutionrelative:src\\main.application.dto\\request\\requestdtouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB75AF01-AA5C-4C85-9EC2-3E15D2312CEB}|src\\Main.Application.Main\\Main.Application.Main.csproj|d:\\project\\main\\main-backend\\src\\main.application.main\\userapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB75AF01-AA5C-4C85-9EC2-3E15D2312CEB}|src\\Main.Application.Main\\Main.Application.Main.csproj|solutionrelative:src\\main.application.main\\userapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F848B3A8-E60C-4022-9421-D535CF76B717}|src\\Main.Application.Interface\\Main.Application.Interface.csproj|d:\\project\\main\\main-backend\\src\\main.application.interface\\iuserapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F848B3A8-E60C-4022-9421-D535CF76B717}|src\\Main.Application.Interface\\Main.Application.Interface.csproj|solutionrelative:src\\main.application.interface\\iuserapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA846B1-20DF-4B67-9A8F-26F293369157}|src\\Main.Application.Validator\\Main.Application.Validator.csproj|d:\\project\\main\\main-backend\\src\\main.application.validator\\userdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DA846B1-20DF-4B67-9A8F-26F293369157}|src\\Main.Application.Validator\\Main.Application.Validator.csproj|solutionrelative:src\\main.application.validator\\userdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,33 +58,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "src\\Main.Service.WebApi\\Controllers\\UserController.cs",
               "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Service.WebApi\\Controllers\\UserController.cs",
               "RelativeToolTip": "src\\Main.Service.WebApi\\Controllers\\UserController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAwwIkAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T22:36:15.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UserDomain.cs",
               "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\UserDomain.cs",
               "RelativeDocumentMoniker": "src\\Main.Domain.Core\\UserDomain.cs",
               "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Core\\UserDomain.cs",
               "RelativeToolTip": "src\\Main.Domain.Core\\UserDomain.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T22:33:06.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "IUserDomain.cs",
               "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Domain.Interface\\IUserDomain.cs",
               "RelativeDocumentMoniker": "src\\Main.Domain.Interface\\IUserDomain.cs",
@@ -97,20 +97,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "src\\Main.Infrastructure.Repository\\UserRepository.cs",
               "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Repository\\UserRepository.cs",
               "RelativeToolTip": "src\\Main.Infrastructure.Repository\\UserRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAALEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T22:30:18.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Infrastructure.Interface\\IUserRepository.cs",
               "RelativeDocumentMoniker": "src\\Main.Infrastructure.Interface\\IUserRepository.cs",
@@ -118,25 +118,24 @@
               "RelativeToolTip": "src\\Main.Infrastructure.Interface\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T22:28:05.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T22:28:05.668Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "UserApplication.cs",
               "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\UserApplication.cs",
               "RelativeDocumentMoniker": "src\\Main.Application.Main\\UserApplication.cs",
               "ToolTip": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Main\\UserApplication.cs",
               "RelativeToolTip": "src\\Main.Application.Main\\UserApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAADQBAAAAAAAAAAAAAFQBAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T22:03:59.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "UserDtoValidator.cs",
               "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Validator\\UserDtoValidator.cs",
               "RelativeDocumentMoniker": "src\\Main.Application.Validator\\UserDtoValidator.cs",
@@ -149,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "RequestDtoUser.cs",
               "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.DTO\\Request\\RequestDtoUser.cs",
               "RelativeDocumentMoniker": "src\\Main.Application.DTO\\Request\\RequestDtoUser.cs",
@@ -157,12 +156,11 @@
               "RelativeToolTip": "src\\Main.Application.DTO\\Request\\RequestDtoUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T21:57:18.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T21:57:18.847Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IUserApplication.cs",
               "DocumentMoniker": "D:\\Project\\Main\\Main-Backend\\src\\Main.Application.Interface\\IUserApplication.cs",
               "RelativeDocumentMoniker": "src\\Main.Application.Interface\\IUserApplication.cs",
@@ -170,8 +168,7 @@
               "RelativeToolTip": "src\\Main.Application.Interface\\IUserApplication.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T21:56:47.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-28T21:56:47.4Z"
             }
           ]
         }

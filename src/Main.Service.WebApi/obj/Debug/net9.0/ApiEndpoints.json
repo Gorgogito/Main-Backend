@@ -334,6 +334,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Main.Service.WebApi.Controllers.UserController",
+    "Method": "UserResetPassword",
+    "RelativePath": "api/identy/User/UserResetPassword",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Main.Application.DTO.Request.RequestDtoUser_ResetPassword",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Main.Service.WebApi.Controllers.AccessControlController",
     "Method": "AccessControlActualice",
     "RelativePath": "api/resource/AccessControl/AccessControlActualice",
